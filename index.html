@@ -70,6 +70,19 @@
    </head>
    <body>
       <header class="header">
+         <script>
+            function clickMe(language) {
+               if (language == '中文') {
+                  localStorage.setItem('verazhang.com?language=','中文');
+               } else {
+                  localStorage.setItem('verazhang.com?language=','English');
+               }
+            }
+         </script>
+         <div align="right">
+            <button type="button" style="display: inline-block;" onclick="clickMe('English')">English</button>
+            <button type="button" style="display: inline-block;" onclick="clickMe('中文')">中文</button>
+         </div>
          <h1 style="text-align: center;">Featured</h1>
       </header>
       <main class="main container">
