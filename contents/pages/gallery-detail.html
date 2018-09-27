@@ -1,18 +1,19 @@
-<!DOCTYPE html>
 <html lang="en">
    <head>
       <title>Vera Zhang</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="Vera's blog">
+      <meta charset="utf-8" />
+      <meta name="keywords" content="vera,zhang,chinese,artist,fine,art">
+      <meta name="description" content="Contemporary Chinese Artist producing Fine Art.">
+      <meta name="author" content="Vera Zhang">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="stylesheet" href="../bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
       <link rel="stylesheet" href="../css/custom.css" type="text/css" />
       <script src="../bootstrap/3.3.7/js/jquery.min.js" type="text/javascript"></script>
       <script src="../bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
       <script type="text/javascript" src="../js/util.js"></script>
       <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76415207-1"></script>
-      <script>
+      <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-76415207-1" type="text/javascript"></script>
+      <script type="text/javascript">
          window.dataLayer = window.dataLayer || [];
          function gtag(){dataLayer.push(arguments);}
          gtag('js', new Date());
@@ -26,14 +27,27 @@
    </head>
    <body>
       <header class="header">
-         <h1 align="center">Vera's Blog</h1>
+         <div class="container" style="text-align: center;">
+            <h1>Vera Zhang</h1>
+         </div>
       </header>
-      <main class="main container">
+      <main role="main" class="container main">
          <div class="outer">
-            <div class="inner" style="padding-top: 20px;" align="center">
-               <p><a class="black-link" href="2018/05/21/start.html">2018.05.21 开篇寄语</a></p>
-               <p><a class="black-link" href="2018/05/23/something-about-time.html">2018.05.21 关于时间的一点感悟</a></p>
-            </div>
+            <div class="inner" id="content"></div>
+            <script type="text/javascript">
+               var urlParams = new URLSearchParams(window.location.search);
+               var key = urlParams.get('title');
+               if (key === null) {
+                   // deal with it later
+               } else if (key.startsWith("art")){
+                   var img = document.createElement('img');
+                   img.src = "../images/" + key;
+                   img.classList.add('img-responsive');
+                   document.getElementById('content').appendChild(img);
+               } else {
+                   // deal with it later
+               }
+            </script>
          </div>
       </main>
       <footer class="footer">
@@ -42,11 +56,11 @@
             createFooterLinks('footer-links',
                 {
                     "featured": "../../index.html",
-                    "artworks": "../pages/gallery.html",
-                    "aboutme": "../pages/about.html",
-                    "supportme": "../pages/support.html"
+                    "blog": "../blog/index.html",
+                    "aboutme": "about.html",
+                    "supportme": "support.html"
                 },
-                'Blog'
+                'Art works'
             );                
          </script>
       </footer>

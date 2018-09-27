@@ -1,48 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  	<title>Vera Zhang</title>
-    <meta charset="utf-8"> 
-    <meta name="description" content="Vera's blog">
-    <meta name="keywords" content="Something,about,time">
-    <meta name="author" content="Vera Zhang">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../../../../bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-  <script src="../../../../bootstrap/3.3.7/js/jquery.min.js" type="text/javascript"></script>
-  <script src="../../../../bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+   <head>
+      <title>Vera Zhang</title>
+      <meta charset="utf-8">
+      <meta name="description" content="Vera's blog">
+      <meta name="keywords" content="Something,about,time">
+      <meta name="author" content="Vera Zhang">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="../../../../bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+      <script src="../../../../bootstrap/3.3.7/js/jquery.min.js" type="text/javascript"></script>
+      <script src="../../../../bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+      <script type="text/javascript" src="../../../../js/util.js"></script>
+      <link rel="stylesheet" type="text/css" href="../../../../css/custom.css">
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76415207-1"></script>
       <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-76415207-1');
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         
+         gtag('config', 'UA-76415207-1');
       </script>
-
-    <script>
-        // Minified version of isMobile included in the HTML since it's small
-        !function(a){var b=/iPhone/i,c=/iPod/i,d=/iPad/i,e=/(?=.*\bAndroid\b)(?=.*\bMobile\b)/i,f=/Android/i,g=/(?=.*\bAndroid\b)(?=.*\bSD4930UR\b)/i,h=/(?=.*\bAndroid\b)(?=.*\b(?:KFOT|KFTT|KFJWI|KFJWA|KFSOWI|KFTHWI|KFTHWA|KFAPWI|KFAPWA|KFARWI|KFASWI|KFSAWI|KFSAWA)\b)/i,i=/IEMobile/i,j=/(?=.*\bWindows\b)(?=.*\bARM\b)/i,k=/BlackBerry/i,l=/BB10/i,m=/Opera Mini/i,n=/(CriOS|Chrome)(?=.*\bMobile\b)/i,o=/(?=.*\bFirefox\b)(?=.*\bMobile\b)/i,p=new RegExp("(?:Nexus 7|BNTV250|Kindle Fire|Silk|GT-P1000)","i"),q=function(a,b){return a.test(b)},r=function(a){var r=a||navigator.userAgent,s=r.split("[FBAN");return"undefined"!=typeof s[1]&&(r=s[0]),s=r.split("Twitter"),"undefined"!=typeof s[1]&&(r=s[0]),this.apple={phone:q(b,r),ipod:q(c,r),tablet:!q(b,r)&&q(d,r),device:q(b,r)||q(c,r)||q(d,r)},this.amazon={phone:q(g,r),tablet:!q(g,r)&&q(h,r),device:q(g,r)||q(h,r)},this.android={phone:q(g,r)||q(e,r),tablet:!q(g,r)&&!q(e,r)&&(q(h,r)||q(f,r)),device:q(g,r)||q(h,r)||q(e,r)||q(f,r)},this.windows={phone:q(i,r),tablet:q(j,r),device:q(i,r)||q(j,r)},this.other={blackberry:q(k,r),blackberry10:q(l,r),opera:q(m,r),firefox:q(o,r),chrome:q(n,r),device:q(k,r)||q(l,r)||q(m,r)||q(o,r)||q(n,r)},this.seven_inch=q(p,r),this.any=this.apple.device||this.android.device||this.windows.device||this.other.device||this.seven_inch,this.phone=this.apple.phone||this.android.phone||this.windows.phone,this.tablet=this.apple.tablet||this.android.tablet||this.windows.tablet,"undefined"==typeof window?this:void 0},s=function(){var a=new r;return a.Class=r,a};"undefined"!=typeof module&&module.exports&&"undefined"==typeof window?module.exports=r:"undefined"!=typeof module&&module.exports&&"undefined"!=typeof window?module.exports=s():"function"==typeof define&&define.amd?define("isMobile",[],a.isMobile=s()):a.isMobile=s()}(this);
+      <script>
+         // Minified version of isMobile included in the HTML since it's small
+         !function(a){var b=/iPhone/i,c=/iPod/i,d=/iPad/i,e=/(?=.*\bAndroid\b)(?=.*\bMobile\b)/i,f=/Android/i,g=/(?=.*\bAndroid\b)(?=.*\bSD4930UR\b)/i,h=/(?=.*\bAndroid\b)(?=.*\b(?:KFOT|KFTT|KFJWI|KFJWA|KFSOWI|KFTHWI|KFTHWA|KFAPWI|KFAPWA|KFARWI|KFASWI|KFSAWI|KFSAWA)\b)/i,i=/IEMobile/i,j=/(?=.*\bWindows\b)(?=.*\bARM\b)/i,k=/BlackBerry/i,l=/BB10/i,m=/Opera Mini/i,n=/(CriOS|Chrome)(?=.*\bMobile\b)/i,o=/(?=.*\bFirefox\b)(?=.*\bMobile\b)/i,p=new RegExp("(?:Nexus 7|BNTV250|Kindle Fire|Silk|GT-P1000)","i"),q=function(a,b){return a.test(b)},r=function(a){var r=a||navigator.userAgent,s=r.split("[FBAN");return"undefined"!=typeof s[1]&&(r=s[0]),s=r.split("Twitter"),"undefined"!=typeof s[1]&&(r=s[0]),this.apple={phone:q(b,r),ipod:q(c,r),tablet:!q(b,r)&&q(d,r),device:q(b,r)||q(c,r)||q(d,r)},this.amazon={phone:q(g,r),tablet:!q(g,r)&&q(h,r),device:q(g,r)||q(h,r)},this.android={phone:q(g,r)||q(e,r),tablet:!q(g,r)&&!q(e,r)&&(q(h,r)||q(f,r)),device:q(g,r)||q(h,r)||q(e,r)||q(f,r)},this.windows={phone:q(i,r),tablet:q(j,r),device:q(i,r)||q(j,r)},this.other={blackberry:q(k,r),blackberry10:q(l,r),opera:q(m,r),firefox:q(o,r),chrome:q(n,r),device:q(k,r)||q(l,r)||q(m,r)||q(o,r)||q(n,r)},this.seven_inch=q(p,r),this.any=this.apple.device||this.android.device||this.windows.device||this.other.device||this.seven_inch,this.phone=this.apple.phone||this.android.phone||this.windows.phone,this.tablet=this.apple.tablet||this.android.tablet||this.windows.tablet,"undefined"==typeof window?this:void 0},s=function(){var a=new r;return a.Class=r,a};"undefined"!=typeof module&&module.exports&&"undefined"==typeof window?module.exports=r:"undefined"!=typeof module&&module.exports&&"undefined"!=typeof window?module.exports=s():"function"==typeof define&&define.amd?define("isMobile",[],a.isMobile=s()):a.isMobile=s()}(this);
       </script>
-          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-4067656674482917",
-        enable_page_level_ads: true
-      });
-    </script>
-  </head>
-  <body>
-    <div class="container">
-      <h1>关于时间的一点感悟</h1>
-      <p>时间，大概是老天赐给一人最珍贵也最无法琢磨的一件事情，第一次深刻的意识到时间的存在，以及时间对一个人的深刻影响的时候，是在刚到美国的第二年，那个时候，接二连三的遭遇了家人和朋友的离世，突然觉得生命实在短暂.</p>
-      <p>在消沉的时候，翻到《苏菲的世界》，以前闲散的翻过一些哲学方面的书籍，但这是第一次看到一本从时间的角度整理西方哲学史的发展，虽然是本儿童读物。此外和小伙伴一起去看了一次毕加索的展览，在纽约古根海姆博物馆，也是第一次从时间发展的角度完整的看一个艺术家的作品变化。排展这种事情很神奇，当使用恰当的方式排出来后，作为观赏者就能接收到艺术家在时间发展过程中自己心里的变化，以及表达出来的信息的变化，从一开始的发散，什么都做，到越来越收敛，越来越精准的传达一个信息，这就是在生活中不断经历不断反思的，不断向外反馈的过程。反观大都会和moma的展览很多时候是按一个时代一个地区的展览的，放的都是某位艺术家巅峰时期的作品，并无法反映某一位艺术家在一生发展过程中，不断磨砺自己表达思想的工具的过程。一位朋友提起Woody Allen一生都在拍他自己，但是如果从头到尾的将他不同时期的电影看过一遍，特别是最近的三部，都是在讲生活的ironic，他逐渐从以自己为中心，转移到对生活的观察了，对电影的各种元素和节奏的把握也越来越娴熟。大概一生有所成就的人，都是这样在不断的磨练自己吧。
-      <p>在我彷徨是否回国的时候，咨询了一下老板，老板问我为什么这么喜欢纽约，我说因为这里精神生活太丰富了，各种各样的人生追求，不像国内主流社会对成功的追求只是出任CEO，赢取白富美，老板回了句，因为这是一个富有的社会，又想起赵薇的一次采访说，在中国现在拍电影太难了，因为大家还挣扎在生存线上，反观历史，中国史上思想生活最丰富的时期，也都是在富庶时期，过了物质的那一坎，人生的追求就不仅仅是在如何能获取更多面包上面了。其实所有这些信息，道理，都在以前看过的书中，但是，没有真正的在人生中经历这一段路，说实在的，还真是没有办法深刻的去理解，所以，读万卷书，行万里路，阅人无数，去创造，去爱，去生活，如果这样度过一生，应该不算虚度了吧。</p>
-
-        <div class="thumbnail">
-             <img  src="images/1.jpg"></img>
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <script>
+         (adsbygoogle = window.adsbygoogle || []).push({
+           google_ad_client: "ca-pub-4067656674482917",
+           enable_page_level_ads: true
+         });
+      </script>
+   </head>
+   <body>
+      <header class="header">
+         <h1 align="center" style="font-size: 20px">关于时间的一点感悟</h1>
+      </header>
+      <main class="main container">
+        <div class="outer">
+          <div class="inner">
+               <p>时间，大概是老天赐给一人最珍贵也最无法琢磨的一件事情，第一次深刻的意识到时间的存在，以及时间对一个人的深刻影响的时候，是在刚到美国的第二年，那个时候，接二连三的遭遇了家人和朋友的离世，突然觉得生命实在短暂.</p>
+               <p>在消沉的时候，翻到《苏菲的世界》，以前闲散的翻过一些哲学方面的书籍，但这是第一次看到一本从时间的角度整理西方哲学史的发展，虽然是本儿童读物。此外和小伙伴一起去看了一次毕加索的展览，在纽约古根海姆博物馆，也是第一次从时间发展的角度完整的看一个艺术家的作品变化。排展这种事情很神奇，当使用恰当的方式排出来后，作为观赏者就能接收到艺术家在时间发展过程中自己心里的变化，以及表达出来的信息的变化，从一开始的发散，什么都做，到越来越收敛，越来越精准的传达一个信息，这就是在生活中不断经历不断反思的，不断向外反馈的过程。反观大都会和moma的展览很多时候是按一个时代一个地区的展览的，放的都是某位艺术家巅峰时期的作品，并无法反映某一位艺术家在一生发展过程中，不断磨砺自己表达思想的工具的过程。一位朋友提起Woody Allen一生都在拍他自己，但是如果从头到尾的将他不同时期的电影看过一遍，特别是最近的三部，都是在讲生活的ironic，他逐渐从以自己为中心，转移到对生活的观察了，对电影的各种元素和节奏的把握也越来越娴熟。大概一生有所成就的人，都是这样在不断的磨练自己吧。
+               <p>在我彷徨是否回国的时候，咨询了一下老板，老板问我为什么这么喜欢纽约，我说因为这里精神生活太丰富了，各种各样的人生追求，不像国内主流社会对成功的追求只是出任CEO，赢取白富美，老板回了句，因为这是一个富有的社会，又想起赵薇的一次采访说，在中国现在拍电影太难了，因为大家还挣扎在生存线上，反观历史，中国史上思想生活最丰富的时期，也都是在富庶时期，过了物质的那一坎，人生的追求就不仅仅是在如何能获取更多面包上面了。其实所有这些信息，道理，都在以前看过的书中，但是，没有真正的在人生中经历这一段路，说实在的，还真是没有办法深刻的去理解，所以，读万卷书，行万里路，阅人无数，去创造，去爱，去生活，如果这样度过一生，应该不算虚度了吧。</p>
+               <div class="thumbnail">
+                  <img  src="images/1.jpg"></img>
+               </div>
+               <h6>image source from google search, claim it I'll take it down.</h6>            
+          </div>
         </div>
-    <h6>image source from google search, claim it I'll take it down.</h6>
-    </div>
-  </body>
+
+      </main>
+      <footer class="footer">
+         <div id="footer-links" align="center"></div>
+         <script type="text/javascript">
+            createFooterLinks('footer-links',
+                {
+                    "featured": "../../../../../index.html",
+                    "artworks": "../../../../pages/gallery.html",
+                    "blog": "../../../index.html",
+                    "aboutme": "../../../../pages/about.html",
+                    "supportme": "../../../../pages/support.html"
+                },
+                null
+            );                
+         </script>
+      </footer>
+   </body>
 </html>
