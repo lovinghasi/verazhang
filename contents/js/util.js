@@ -35,7 +35,13 @@ function createHeaderContents(containerName, pageTitle) {
     var title = document.createElement('h1');
     title.align = "center";
     var language = localStorage.getItem('verazhang.com?language=');
-    var titleText = document.createTextNode(pageTitle[language]);
+    var titleText;
+    if (language) {
+       titleText = document.createTextNode(pageTitle[language]);
+    } else {
+        titleText = document.createTextNode(pageTitle['English']);
+    }
+
     title.appendChild(titleText);
     document.getElementById(containerName).appendChild(title);
 }
