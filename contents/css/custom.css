@@ -16,6 +16,9 @@
     height: 60px;
     z-index: 999 !important;
 }
+.header h1{
+    margin :0px;
+}
 
 .main {
   margin-top: 60px;

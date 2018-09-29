@@ -26,8 +26,13 @@
       </script>
    </head>
    <body>
-      <header class="header">
-         <h1 style="text-align: center;">Art Works</h1>
+      <header id="header" class="header">
+         <script>
+            createHeaderContents('header', {
+               "中文": "艺术作品",
+               "English": "Art Works"
+            });
+         </script>
       </header>
       <main class="main container">
          <div class="outer">

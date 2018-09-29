@@ -69,8 +69,13 @@
       </style>
    </head>
    <body>
-      <header class="header">
-         <h1 style="text-align: center;">Featured</h1>
+      <header id="header" class="header">
+         <script>
+            createHeaderContents('header', {
+               "中文": "主打作品",
+               "English": "Featured"
+            });
+         </script>
       </header>
       <main class="main container">
          <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="15000">
