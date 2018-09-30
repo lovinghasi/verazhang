@@ -26,7 +26,6 @@ function createHeaderContents(containerName, pageTitle) {
     // create a English button
     var buttonEnglish = document.createElement('button');
     buttonEnglish.type = "button";
-    buttonEnglish.style = "display: inline-block;";
     buttonEnglish.onclick = function () {
        localStorage.setItem('verazhang.com?language=','English');
        location.reload();
@@ -37,7 +36,6 @@ function createHeaderContents(containerName, pageTitle) {
     // create a Chinese button
     var buttonChinese = document.createElement('button');
     buttonChinese.type = "button";
-    buttonChinese.style = "display: inline-block;";
     buttonChinese.onclick = function () {
         localStorage.setItem('verazhang.com?language=','中文');
         location.reload();
