@@ -1,0 +1,191 @@
+{
+  "art1.jpg": {
+    "title": "自画像",
+    "material": "彩色铅笔，纸",
+    "description": "在一个雨夜，听着音乐，我画了这幅画，穿着同样的衣服。我想想自己和自己做朋友，笔尖就流出了这个形象。",
+    "width": "28",
+    "height": "40.6"
+  },
+  "art2.jpg": {
+    "title": "空间与时间",
+    "material": "圆珠笔，丙烯颜料，纸",
+    "description": "我常常问自己一个问题，你怎么知道你每天见的人和昨天是同一个人。我常常问自己一个问题，你怎么知道你每天生活的城市，没有一夜之前换到另一个平行空间。",
+    "width": "28",
+    "height": "40.6"
+  },
+  "art3.jpg": {
+    "title": "肖像1",
+    "material": "圆珠笔，丙烯颜料，纸",
+    "description": "无",
+    "width": "28",
+    "height": "40.6"
+  },
+  "art4.jpg": {
+    "title": "肖像2",
+    "material": "圆珠笔，丙烯颜料，纸",
+    "description": "无",
+    "width": "28",
+    "height": "40.6"
+  },
+  "art5.jpg": {
+    "title": "肖像3",
+    "material": "圆珠笔，丙烯颜料，纸",
+    "description": "无",
+    "width": "28",
+    "height": "40.6"
+  },
+  "art6.jpg": {
+    "title": "愿有来时路，愿有归时伴",
+    "material": "圆珠笔，丙烯颜料，纸",
+    "description": "无论你来自何方，如何行走人世间，结局最终都一样。重要的是旅程。",
+    "width": "23.8",
+    "height": "29.4"
+  },
+  "art7.jpg": {
+    "title": "草莓怪兽",
+    "material": "圆珠笔，丙烯颜料，纸",
+    "description": "无",
+    "width": "17.5",
+    "height": "23.4"
+  },
+  "art8.jpg": {
+    "title": "无题",
+    "material": "笔，纸",
+    "description": "无",
+    "width": "23.9",
+    "height": "29.5"
+  },
+  "art9.jpg": {
+    "title": "抑郁的表达",
+    "material": "水性笔，纸",
+    "description": "我是闭着眼睛画这幅画的。一边听着音乐，一边让笔记录下脑子里的情感。这是我开始绘画的第一幅。",
+    "width": "22.8",
+    "height": "30.5"
+  },
+  "art10.jpg": {
+    "title": "拨开云雾见天日",
+    "material": "水彩，纸",
+    "description": "无",
+    "width": "30.5",
+    "height": "22.8"
+  },
+  "art11.jpg": {
+    "title": "无题",
+    "material": "丙烯颜料，纸",
+    "description": "无",
+    "width": "22.8",
+    "height": "30.5"
+  },
+  "art12.jpg": {
+    "title": "一点点蓝色",
+    "material": "丙烯颜料，纸",
+    "description": "纸",
+    "width": "22.8",
+    "height": "30.5"
+  },
+  "art13.jpg": {
+    "title": "干啥这么严肃？",
+    "material": "丙烯颜料，纸",
+    "description": "这幅画受了Chicken Attack这首歌的影响。",
+    "width": "22.8",
+    "height": "30.5"
+  },
+  "art14.jpg": {
+    "title": "咖啡的力量",
+    "material": "丙烯颜料，纸",
+    "description": "无",
+    "width": "28",
+    "height": "40.6"
+  },
+  "art15.jpg": {
+    "title": "自画像",
+    "material": "丙烯颜料，纸",
+    "description": "无",
+    "width": "30.5",
+    "height": "45.7"
+  },
+  "art16.jpg": {
+    "title": "帽子小姐",
+    "material": "丙烯颜料，纸",
+    "description": "无",
+    "width": "30.5",
+    "height": "45.7"
+  },
+  "art17.jpg": {
+    "title": "洞穴人",
+    "material": "丙烯颜料，画布",
+    "description": "这幅画画了一个住在洞穴里的人，从未见过外面的世界。他的全世界，或者说他仅有的朋友就是洞穴壁上真实世界的投影。",
+    "width": "45.7",
+    "height": "30.5"
+  },
+  "art18.jpg": {
+    "title": "花",
+    "material": "丙烯颜料，画布",
+    "description": "无",
+    "width": "30.5",
+    "height": "45.7"
+  },
+  "art19.jpg": {
+    "title": "芭蕾舞娘",
+    "material": "丙烯颜料，画布",
+    "description": "无",
+    "width": "30.5",
+    "height": "45.7"
+  },
+  "art20.jpg": {
+    "title": "梦",
+    "material": "丙烯颜料，画布",
+    "description": "闭上眼睛画的这幅，有点错乱，但乱的又挺好看。",
+    "width": "30.5",
+    "height": "45.7"
+  },
+  "art21.jpg": {
+    "title": "躁郁症",
+    "material": "丙烯颜料，画布",
+    "description": "无",
+    "width": "30.5",
+    "height": "45.7"
+  },
+  "art22.jpg": {
+    "title": "沙发上的模特",
+    "material": "油彩画笔，纸",
+    "description": "无",
+    "width": "60.9",
+    "height": "45.7"
+  },
+  "art23.jpg": {
+    "title": "方块们",
+    "material": "丙烯颜料，画布",
+    "description": "无",
+    "width": "30.5",
+    "height": "45.7"
+  },
+  "art24.jpg": {
+    "title": "弹吉他的自画像",
+    "material": "丙烯颜料，画布",
+    "description": "我不会弹吉他，但我有画笔，仿佛画上了，自己就弹上了吉他。",
+    "width": "30.5",
+    "height": "45.7"
+  },
+  "art25.jpg": {
+    "title": "自由",
+    "material": "丙烯颜料，画布",
+    "description": "这是描绘一个灵魂冲破了斯金纳箱子受到的冲击。",
+    "width": "30.5",
+    "height": "45.7"
+  },
+  "art26.jpg": {
+    "title": "豆子先生",
+    "material": "丙烯颜料，画布",
+    "description": "你看你看，那个人长得好像一个豆子。",
+    "width": "30.5",
+    "height": "45.7"
+  },
+  "art27.jpg": {
+    "title": "害羞的腮红",
+    "material": "丙烯颜料，画布",
+    "description": "你有没有曾经看到过一个人，忍不住就红了脸，眼里仿佛要冒出小星星？我觉得这画里就是这个颜色。",
+    "width": "30.5",
+    "height": "45.7"
+  }
+}

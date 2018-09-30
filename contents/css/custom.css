@@ -16,6 +16,21 @@
     height: 60px;
     z-index: 999 !important;
 }
+.header h1{
+    margin :0px;
+}
+
+.header button {
+  background-color: white;
+    border: none;
+    color: black;
+    padding: 1px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    margin: 1px;
+    cursor: pointer;
+}
 
 .main {
   margin-top: 60px;

@@ -27,23 +27,67 @@
       </script>
    </head>
    <body>
-      <header class="header">
-         <h1 align="center">Support Me</h1>
+      <header id="header" class="header">
+         <script>
+            createHeaderContents('header', {
+               "中文": "谢谢",
+               "English": "Thanks"
+            });
+         </script>
       </header>
       <main class="main container">
          <div class="outer">
             <div class="inner">
                <div align="center" id="bitcoin" style="overflow: hidden;">
-                  <h3 >My Bitcoin Address</h3>
+                  <script type="text/javascript">
+                    var language = localStorage.getItem('verazhang.com?language=');
+                    if (language == "中文") {
+                      var h3 = document.createElement('h3');
+                      var h3Text = document.createTextNode('比特币地址');
+                      h3.appendChild(h3Text);
+                      document.getElementById('bitcoin').appendChild(h3);
+                    } else {
+                      var h3 = document.createElement('h3');
+                      var h3Text = document.createTextNode('Bitcoin Address');
+                      h3.appendChild(h3Text);
+                      document.getElementById('bitcoin').appendChild(h3);
+                    }
+                  </script>
                   <p>3EMAc5f9tBep293m1E3RWH1YZLyx8UiDSr</p>
                   <img src="../images/bitcoin.png"></img>
                </div>
                <div align="center" id="wechat">
-                  <h3 >My Wechat Address</h3>
+                  <script type="text/javascript">
+                    var language = localStorage.getItem('verazhang.com?language=');
+                    if (language == "中文") {
+                      var h3 = document.createElement('h3');
+                      var h3Text = document.createTextNode('微信钱包地址');
+                      h3.appendChild(h3Text);
+                      document.getElementById('wechat').appendChild(h3);
+                    } else {
+                      var h3 = document.createElement('h3');
+                      var h3Text = document.createTextNode('Wechat Wallet Address');
+                      h3.appendChild(h3Text);
+                      document.getElementById('wechat').appendChild(h3);
+                    }
+                  </script>
                   <img width="300px" src="../images/wechatpay.jpg"></img>
                </div>
                <div align="center" id="venmo">
-                  <h3 >My Venmo Address</h3>
+                  <script type="text/javascript">
+                    var language = localStorage.getItem('verazhang.com?language=');
+                    if (language == "中文") {
+                      var h3 = document.createElement('h3');
+                      var h3Text = document.createTextNode('Venmo账户');
+                      h3.appendChild(h3Text);
+                      document.getElementById('venmo').appendChild(h3);
+                    } else {
+                      var h3 = document.createElement('h3');
+                      var h3Text = document.createTextNode('Venmo Address');
+                      h3.appendChild(h3Text);
+                      document.getElementById('venmo').appendChild(h3);
+                    }
+                  </script>
                   <img width="300px" src="../images/venmo.jpg"></img>
                </div>
             </div>

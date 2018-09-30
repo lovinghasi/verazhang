@@ -2,185 +2,190 @@
   "art1.jpg": {
     "title": "Self Portrait",
     "material": "Color pencil on paper",
-    "description": "",
+    "description": "I drew this on a rainy night, listening to music on my phone, wearing the same outfit. I imagined myself being my own friend, and this came out of the pencil.",
     "width": "11",
     "height": "16"
   },
-    "art2.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
+  "art2.jpg": {
+    "title": "Space and time",
+    "material": "Mixed materials on paper",
+    "description": "I ask myself a question, how do you know that the person you see today, is the same person you met yesterday. I ask myself a question, how to you know the city you live in, didn't switch to a parallel universe over night.",
     "width": "11",
     "height": "16"
   },
-    "art3.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
+  "art3.jpg": {
+    "title": "Portrait 1",
+    "material": "Mixed materials on paper",
+    "description": "None",
     "width": "11",
     "height": "16"
   },
-    "art4.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
+  "art4.jpg": {
+    "title": "Portrait 2",
+    "material": "Mixed materials on paper",
+    "description": "None",
     "width": "11",
     "height": "16"
   },
-    "art5.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
+  "art5.jpg": {
+    "title": "Portrait 3",
+    "material": "Mixed materials on paper",
+    "description": "None",
     "width": "11",
     "height": "16"
   },
-    "art6.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
+  "art6.jpg": {
+    "title": "Every path is the same",
+    "material": "Mixed materials on paper",
+    "description": "All road leads to the same end, it's the journey that's the most important.",
+    "width": "9.4",
+    "height": "11.6"
   },
-    "art7.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
+  "art7.jpg": {
+    "title": "Strawberry Monster",
+    "material": "Mixed materials on paper",
+    "description": "None",
+    "width": "6.9",
+    "height": "9.2"
   },
-    "art8.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
+  "art8.jpg": {
+    "title": "Untitled",
+    "material": "Pen on paper",
+    "description": "None",
+    "width": "9.4",
+    "height": "11.6"
   },
-    "art9.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
-  },  
+  "art9.jpg": {
+    "title": "Expression of depression",
+    "material": "Pen on paper",
+    "description": "This one is drawn with my eyes closed, music on. I let what's on my mind flow out from the pen. This is the start of my painting journey.",
+    "width": "9",
+    "height": "12"
+  },
   "art10.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
+    "title": "Light through the clouds",
+    "material": "Mixed materials on paper",
+    "description": "None",
+    "width": "12",
+    "height": "9"
+  },
+  "art11.jpg": {
+    "title": "Untitled",
+    "material": "Acrylic on paper",
+    "description": "None",
+    "width": "9",
+    "height": "12"
+  },
+  "art12.jpg": {
+    "title": "A bit blue",
+    "material": "Acrylic on paper",
+    "description": "None",
+    "width": "9",
+    "height": "12"
+  },
+  "art13.jpg": {
+    "title": "Why so serious?",
+    "material": "Acrylic on paper",
+    "description": "This is inspired by the song Chicken Attack.",
+    "width": "9",
+    "height": "12"
+  },
+  "art14.jpg": {
+    "title": "Coffee works",
+    "material": "Acrylic on paper",
+    "description": "None",
     "width": "11",
     "height": "16"
   },
-    "art11.jpg": {
+  "art15.jpg": {
     "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
+    "material": "Acrylic on paper",
+    "description": "None",
+    "width": "12",
+    "height": "18"
+  },
+  "art16.jpg": {
+    "title": "Lady",
+    "material": "Acrylic on paper",
+    "description": "None",
+    "width": "12",
+    "height": "18"
+  },
+  "art17.jpg": {
+    "title": "The caveman",
+    "material": "Acrylic on canvas",
+    "description": "This one paints a man who has never lived outside a cave, the only friends he has are from the shades of a real world.",
+    "width": "20",
     "height": "16"
   },
-    "art12.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
-  },  "art13.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
+  "art18.jpg": {
+    "title": "Flowers",
+    "material": "Acrylic on canvas",
+    "description": "None",
+    "width": "16",
+    "height": "20"
   },
-    "art14.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
+  "art19.jpg": {
+    "title": "Ballerina",
+    "material": "Acrylic on canvas",
+    "description": "None",
+    "width": "16",
+    "height": "20"
   },
-    "art15.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
-  },  "art16.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
+  "art20.jpg": {
+    "title": "Dream",
+    "material": "Acrylic on canvas",
+    "description": "Painted with eyes closed.",
+    "width": "16",
+    "height": "20"
   },
-    "art17.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
+  "art21.jpg": {
+    "title": "Bipolar",
+    "material": "Acrylic on canvas",
+    "description": "None",
+    "width": "16",
+    "height": "20"
   },
-    "art18.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
-  },  "art19.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
+  "art22.jpg": {
+    "title": "Model sitting on a sofa",
+    "material": "Pastel on paper",
+    "description": "None",
+    "width": "24",
+    "height": "18"
   },
-    "art20.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
+  "art23.jpg": {
+    "title": "Cubes",
+    "material": "Acrylic on canvas",
+    "description": "None",
+    "width": "16",
+    "height": "20"
   },
-    "art21.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
-  },  "art22.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
+  "art24.jpg": {
+    "title": "Self portrait with a guitar",
+    "material": "Acrylic on canvas",
+    "description": "I never learned how to play guitar, but I can paint. It's like if I paint it well, I can really play.",
+    "width": "16",
+    "height": "20"
   },
-    "art23.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
+  "art25.jpg": {
+    "title": "Freedom",
+    "material": "Acrylic on canvas",
+    "description": "I painted a soul breaking out of a Skinner Box.",
+    "width": "16",
+    "height": "20"
   },
-    "art24.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
-  },  "art25.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
+  "art26.jpg": {
+    "title": "Mr. Bean",
+    "material": "Acrylic on canvas",
+    "description": "None",
+    "width": "16",
+    "height": "20"
   },
-    "art26.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
-  },
-    "art27.jpg": {
-    "title": "Self Portrait",
-    "material": "Color pencil on paper",
-    "description": "",
-    "width": "11",
-    "height": "16"
+  "art27.jpg": {
+    "title": "Blush",
+    "material": "Acrylic on canvas",
+    "description": "Have you seen someone, and can't help to blush? I believe this is the color.",
+    "width": "16",
+    "height": "12"
   }
 }

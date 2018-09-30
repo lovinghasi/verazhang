@@ -25,8 +25,13 @@
       </script>
    </head>
    <body>
-      <header class="header">
-         <h1 align="center">Vera's Blog</h1>
+      <header id="header" class="header">
+         <script>
+            createHeaderContents('header', {
+               "中文": "博客",
+               "English": "Blog"
+            });
+         </script>
       </header>
       <main class="main container">
          <div class="outer">

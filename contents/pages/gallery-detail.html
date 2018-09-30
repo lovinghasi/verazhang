@@ -26,24 +26,78 @@
       </script>
    </head>
    <body>
-      <header class="header">
-         <div class="container" style="text-align: center;">
-            <h1>Vera Zhang</h1>
-         </div>
+      <header id="header" class="header">
+         <script>
+            createHeaderContents('header', {
+               "中文": "章薇作品",
+               "English": "Vera Zhang"
+            });
+         </script>
       </header>
       <main role="main" class="container main">
          <div class="outer">
-            <div class="inner" id="content"></div>
+            <div class="inner" id="content">
+              <div class="row">
+                <div class="col-sm-8" id="imgHolder"></div>
+                <div class="col-sm-4" id="detailHolder"></div>
+              </div>
+            </div>
             <script type="text/javascript">
                var urlParams = new URLSearchParams(window.location.search);
                var key = urlParams.get('title');
                if (key === null) {
                    // deal with it later
                } else if (key.startsWith("art")){
+                  var div 
                    var img = document.createElement('img');
                    img.src = "../images/" + key;
                    img.classList.add('img-responsive');
-                   document.getElementById('content').appendChild(img);
+                   document.getElementById('imgHolder').appendChild(img);
+                   var language = localStorage.getItem('verazhang.com?language=');
+                   if (language == '中文') {
+                    readTextFile("gallery-description-ch", function(param) {
+                      var json = JSON.parse(param);
+                      var detail = json[key];
+                      var h4 = document.createElement('h4');
+                      var h4Text = document.createTextNode(detail['title']);
+                      h4.appendChild(h4Text);
+                      document.getElementById('detailHolder').appendChild(h4);
+                      var materialP = document.createElement('p');
+                      var materialPText = document.createTextNode(detail['material']);
+                      materialP.appendChild(materialPText);
+                      document.getElementById('detailHolder').appendChild(materialP);
+                      var sizeP = document.createElement('p');
+                      var sizePText = document.createTextNode(detail['width'] + "cm x " + detail['height'] + "cm");
+                      sizeP.appendChild(sizePText);
+                      document.getElementById('detailHolder').appendChild(sizeP);
+                      var descriptionP = document.createElement('p');
+                      var descriptionPText = document.createTextNode("描述: " + detail['description']);
+                      descriptionP.appendChild(descriptionPText);
+                      document.getElementById('detailHolder').appendChild(descriptionP);
+                    });                      
+                   } else {
+                    readTextFile("gallery-description-en", function(param) {
+                        var json = JSON.parse(param);
+                        var detail = json[key];
+                        var h4 = document.createElement('h4');
+                        var h4Text = document.createTextNode(detail['title']);
+                        h4.appendChild(h4Text);
+                        document.getElementById('detailHolder').appendChild(h4);
+                        var materialP = document.createElement('p');
+                        var materialPText = document.createTextNode(detail['material']);
+                        materialP.appendChild(materialPText);
+                        document.getElementById('detailHolder').appendChild(materialP);
+                        var sizeP = document.createElement('p');
+                        var sizePText = document.createTextNode(detail['width'] + "\"x" + detail['height'] + "\"");
+                        sizeP.appendChild(sizePText);
+                        document.getElementById('detailHolder').appendChild(sizeP);
+                        var descriptionP = document.createElement('p');
+                        var descriptionPText = document.createTextNode("Description: " + detail['description']);
+                        descriptionP.appendChild(descriptionPText);
+                        document.getElementById('detailHolder').appendChild(descriptionP);
+                    });
+                   }
+
                } else {
                    // deal with it later
                }
