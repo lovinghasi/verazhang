@@ -1,10 +1,22 @@
-function changeLanguage(language) {
-   if (language == '中文') {
-      localStorage.setItem('verazhang.com?language=','中文');
-   } else {
-      localStorage.setItem('verazhang.com?language=','English');
-   }
-   location.reload();
+function readTextFile(file, conmpletionFunction)
+{
+  var rawFile = new XMLHttpRequest();
+  rawFile.open("GET", file, true);
+  rawFile.onreadystatechange = function ()
+  {
+     if(rawFile.readyState === 4)
+     {
+        if(rawFile.status === 200 || rawFile.status == 0)
+          {
+            var allText = rawFile.responseText;
+            conmpletionFunction(allText);
+          }
+      }
+    }
+    rawFile.onerror = function (e) {
+      console.error(xhr.statusText);
+    };
+    rawFile.send(null);
 }
 
 function createHeaderContents(containerName, pageTitle) {
@@ -16,7 +28,8 @@ function createHeaderContents(containerName, pageTitle) {
     buttonEnglish.type = "button";
     buttonEnglish.style = "display: inline-block;";
     buttonEnglish.onclick = function () {
-       changeLanguage('English'); 
+       localStorage.setItem('verazhang.com?language=','English');
+       location.reload();
     }
     var buttonEnglishText = document.createTextNode('English');
     buttonEnglish.appendChild(buttonEnglishText);
@@ -26,7 +39,8 @@ function createHeaderContents(containerName, pageTitle) {
     buttonChinese.type = "button";
     buttonChinese.style = "display: inline-block;";
     buttonChinese.onclick = function () {
-       changeLanguage('中文');
+        localStorage.setItem('verazhang.com?language=','中文');
+        location.reload();
     }
     var buttonChineseText = document.createTextNode('中文');
     buttonChinese.appendChild(buttonChineseText);

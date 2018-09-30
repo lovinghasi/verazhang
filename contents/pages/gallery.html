@@ -55,6 +55,14 @@
                   img.src = "../images/" + order[i*colunm + j];
                   link.appendChild(img);
                   divThumbnail.appendChild(link);
+                  var divCaption = document.createElement('div');
+                  divCaption.class = "caption";
+                  var details = description[order[i*colunm + j]];
+                  var p = document.createElement('p');
+                  var pText = document.createTextNode(details['material'] + ", " + details['width'] + "\"x" + details['height'] + "\"");
+                  p.appendChild(pText);
+                  divCaption.appendChild(p);
+                  divThumbnail.appendChild(divCaption);
                   divColumn.appendChild(divThumbnail);
                   divRow.appendChild(divColumn);
                 }
@@ -75,43 +83,33 @@
                   img.src = "../images/" + order[row*colunm + i];
                   link.appendChild(img);
                   divThumbnail.appendChild(link);
+                  var divCaption = document.createElement('div');
+                  divCaption.class = "caption";
+                  var details = description[order[i*colunm + j]];
+                  var p = document.createElement('p');
+                  var pText = document.createTextNode(details['material'] + ", " + details['width'] + "\"x" + details['height'] + "\"");
+                  p.appendChild(pText);
+                  divCaption.appendChild(p);
+                  divThumbnail.appendChild(divCaption);
                   divColumn.appendChild(divThumbnail);
                   divRow.appendChild(divColumn);
                 }          
                 document.getElementById('content').appendChild(divRow);   
               } 
             }
-            function readTextFile(file)
-            {
-              var rawFile = new XMLHttpRequest();
-              rawFile.open("GET", file, true);
-              rawFile.onreadystatechange = function ()
-              {
-                 if(rawFile.readyState === 4)
-                 {
-                    if(rawFile.status === 200 || rawFile.status == 0)
-                      {
-                        var allText = rawFile.responseText;
-                        var json = JSON.parse(allText);
-                        addImages(["art1.jpg", "art2.jpg", "art3.jpg", 
-                                   "art4.jpg", "art5.jpg", "art6.jpg", 
-                                   "art7.jpg", "art8.jpg", "art9.jpg", 
-                                   "art10.jpg","art11.jpg","art12.jpg",
-                                   "art13.jpg","art14.jpg","art15.jpg",
-                                   "art16.jpg", "art17.jpg", "art18.jpg", 
-                                   "art19.jpg", "art20.jpg", "art21.jpg", 
-                                   "art22.jpg", "art23.jpg", "art24.jpg", 
-                                   "art25.jpg", "art26.jpg", "art27.jpg"],
-                                    json, 3);
-                      }
-                  }
-                }
-                rawFile.onerror = function (e) {
-                  console.error(xhr.statusText);
-                };
-                rawFile.send(null);
-            }
-            readTextFile("gallery-description-en");
+            readTextFile("gallery-description-en", function(param){
+                var json = JSON.parse(param);
+                addImages(["art1.jpg", "art2.jpg", "art6.jpg",
+                           "art27.jpg", "art24.jpg", "art25.jpg", 
+                           "art26.jpg", "art23.jpg", "art18.jpg", 
+                           "art14.jpg", "art16.jpg", "art15.jpg",
+                                      "art17.jpg", "art20.jpg", "art22.jpg", 
+                           "art3.jpg", "art4.jpg", "art5.jpg", 
+                           "art7.jpg", "art8.jpg", "art10.jpg", 
+                            "art9.jpg", "art12.jpg", "art13.jpg", 
+                           "art21.jpg","art19.jpg"],
+                            json, 3);
+            });
          </script>
       </main>
       <footer class="footer">
