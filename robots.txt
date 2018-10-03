@@ -1,0 +1,8 @@
+sitemap:http://www.verazhang.com/sitemap.xml
+
+User-agent:  *
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /author/
+Disallow: /comments/feed/
+Disallow: /trackback/
