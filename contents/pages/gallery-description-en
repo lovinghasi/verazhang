@@ -186,6 +186,34 @@
     "material": "Acrylic on canvas",
     "description": "Have you seen someone, and can't help to blush? I believe this is the color.",
     "width": "16",
-    "height": "12"
+    "height": "20"
+  },
+  "art28.jpg": {
+    "title": "Dancing on the moon",
+    "material": "Acrylic on canvas",
+    "description": "I wish I could dance on the moon, free and forever.",
+    "width": "20",
+    "height": "16"
+  },
+    "art29.jpg": {
+    "title": "Who's in the paiting?",
+    "material": "Acrylic on canvas",
+    "description": "It's a question to you too, are you in someone else's painting?",
+    "width": "20",
+    "height": "16"
+  },
+    "art30.jpg": {
+    "title": "I miss you already.",
+    "material": "Acrylic on canvas",
+    "description": "You close your eyes when you're kissing.",
+    "width": "16",
+    "height": "20"
+  },
+    "art31.jpg": {
+    "title": "Four colors, four seasons.",
+    "material": "Acrylic on canvas",
+    "description": "I started with four colors, but the combination showed some magic, it's so warm, so imaginative, and I can't stop looking at it.",
+    "width": "20",
+    "height": "16"
   }
 }
