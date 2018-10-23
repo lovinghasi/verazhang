@@ -142,6 +142,7 @@ function createFooterLinks(containerName, links, pageName) {
         var instaText = document.createTextNode("Instagram");
         instaLink.appendChild(instaText);
         instaLink.className = "black-link-underline";
+        instaLink.setAttribute('target','_blank');
         instaLink.href = "http://www.instagram.com/vera_z/";
         instaLi.appendChild(instaLink);
         ul.appendChild(instaLi);
