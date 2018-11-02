@@ -32,6 +32,14 @@
            enable_page_level_ads: true
          });
       </script>
+      <style type="text/css">
+        .scroll-wrapper {
+  -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+
+  /* important:  dimensions or positioning here! */
+}
+      </style>
    </head>
    <body>
       <header class="header">
@@ -52,7 +60,9 @@
                   <p>Then build the rest of computing laws on top of it. Then take in information, let it compute, let it learn. What would the result be?</p>
                   <p>I don't know, but I'm an engineer, I can just build it.</p>
                   <p>Attaching a simple genesis code that I wrote to explain the laws above.</p>
-                  <iframe width="100%" frameBorder="0" src="genesis.txt"></iframe>
+                  <div class="scroll-wrapper">
+                      <iframe width="100%" frameBorder="0" src="genesis.txt"></iframe>
+                  </div>
                   <p>If you like this idea, shoot me an email and we can discuss!</p>
           </div>
         </div>
