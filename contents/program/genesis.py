@@ -8,9 +8,9 @@ def random01():
 # but if 1+1 != 2 is true, what value should it be?
 def baseRuleWhenOneMeetOne():
 	# In binary
-	#		0 case, 1 + 1 = 0
-	#		1 case, 1 + 1 = 1
-	#		2 case, 1 + 1 = 10
+	# 0 case, 1 + 1 = 0
+	# 1 case, 1 + 1 = 1
+	# 2 case, 1 + 1 = 10
 	while True:
 		a = random01()
 		a = (a<<1) ^ random01()
