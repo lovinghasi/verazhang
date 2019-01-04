@@ -97,7 +97,14 @@
                 document.getElementById('content').appendChild(divRow);   
               } 
             }
-            readTextFile("gallery-description-en", function(param){
+            var language = localStorage.getItem('verazhang.com?language=');
+             var text;
+                     if (language == '中文') {
+                        text = 'gallery-description-ch';
+                     } else {
+                        text = 'gallery-description-en';
+                     }
+            readTextFile(text, function(param){
                 var json = JSON.parse(param);
                 addImages(["art1.jpg", "art2.jpg", "art6.jpg",
                            "art27.jpg", "art24.jpg", "art25.jpg", 
@@ -108,7 +115,8 @@
                            "art7.jpg", "art8.jpg", "art10.jpg", 
                             "art9.jpg", "art12.jpg", "art13.jpg", 
                            "art21.jpg","art19.jpg", "art30.jpg",
-                           "art29.jpg", "art28.jpg", "art31.jpg"],
+                           "art29.jpg", "art32.jpg","art28.jpg", 
+                           "art31.jpg"],
                             json, 3);
             });
          </script>

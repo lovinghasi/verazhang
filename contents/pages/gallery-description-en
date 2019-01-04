@@ -215,5 +215,12 @@
     "description": "I started with four colors, but the combination showed some magic, it's so warm, so imaginative, and I can't stop looking at it.",
     "width": "20",
     "height": "16"
+  }, 
+    "art32.jpg": {
+    "title": "Who's in the paiting?2",
+    "material": "Acrylic on canvas",
+    "description": "It's a question to you too, are you in someone else's painting?",
+    "width": "48",
+    "height": "36"
   }
 }
