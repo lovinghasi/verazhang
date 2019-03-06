@@ -176,5 +176,17 @@ function createFooterLinks(containerName, links, pageName) {
 
     }
     ul.appendChild(supportLi);
+    // Privacy Policy
+    var privacyLi = document.createElement('li');
+    var privacyText = document.createTextNode('Privacy Policy');
+    if (language == '中文') {
+        privacyText = document.createTextNode('隐私政策');
+    }
+    var privacyLink = document.createElement('a');
+    privacyLink.appendChild(privacyText);
+    privacyLink.className = "black-link-underline";
+    privacyLink.href = "https://www.freeprivacypolicy.com/privacy/view/fc6bd4104410e9573eead5ce0a7f1b3e";
+    privacyLi.appendChild(privacyLink);
+    ul.appendChild(privacyLi);
     document.getElementById(containerName).appendChild(ul);
 }
