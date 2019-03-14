@@ -39,6 +39,7 @@
             <div class="inner" id="content"></div>
          </div>
          <script type="text/javascript">
+            var language = localStorage.getItem('verazhang.com?language=');
             function addImages(order, description, colunm){
               var row = Math.floor(order.length / colunm);
               for (var i = 0; i < row; i++) {
@@ -59,7 +60,12 @@
                   divCaption.class = "caption";
                   var details = description[order[i*colunm + j]];
                   var p = document.createElement('p');
-                  var pText = document.createTextNode(details['material'] + ", " + details['width'] + "\"x" + details['height'] + "\"");
+                  var pText;
+                  if (language == '中文') {
+                    pText = document.createTextNode(details['material'] + ", " + details['width'] + "cm x " + details['height'] + "cm");
+                  } else {
+                    pText = document.createTextNode(details['material'] + ", " + details['width'] + "\"x" + details['height'] + "\"");
+                  }     
                   p.appendChild(pText);
                   divCaption.appendChild(p);
                   divThumbnail.appendChild(divCaption);
@@ -87,7 +93,12 @@
                   divCaption.class = "caption";
                   var details = description[order[i*colunm + j]];
                   var p = document.createElement('p');
-                  var pText = document.createTextNode(details['material'] + ", " + details['width'] + "\"x" + details['height'] + "\"");
+                  var pText;
+                  if (language == '中文') {
+                    pText = document.createTextNode(details['material'] + ", " + details['width'] + "cm x " + details['height'] + "cm");
+                  } else {
+                    pText = document.createTextNode(details['material'] + ", " + details['width'] + "\"x" + details['height'] + "\"");
+                  } 
                   p.appendChild(pText);
                   divCaption.appendChild(p);
                   divThumbnail.appendChild(divCaption);
@@ -97,16 +108,16 @@
                 document.getElementById('content').appendChild(divRow);   
               } 
             }
-            var language = localStorage.getItem('verazhang.com?language=');
-             var text;
-                     if (language == '中文') {
-                        text = 'description-ch';
-                     } else {
-                        text = 'description-en';
-                     }
+            var text;
+            if (language == '中文') {
+                text = 'description-ch';
+              } else {
+                text = 'description-en';
+            }
             readTextFile(text, function(param){
                 var json = JSON.parse(param);
-                addImages(["art1.jpg", "art2.jpg", "art6.jpg",
+                addImages(["art38.jpg", "art39.jpg", "art40.jpg",
+                           "art1.jpg", "art2.jpg", "art6.jpg",
                            "art27.jpg", "art24.jpg", "art25.jpg", 
                            "art26.jpg", "art23.jpg", "art18.jpg", 
                            "art14.jpg", "art16.jpg", "art15.jpg",
