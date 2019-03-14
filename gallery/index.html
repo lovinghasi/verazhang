@@ -6,11 +6,11 @@
       <meta name="description" content="Contemporary Chinese Artist producing Fine Art.">
       <meta name="author" content="Vera Zhang">
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <link rel="stylesheet" href="../bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-      <link rel="stylesheet" href="../css/custom.css" type="text/css" />
-      <script src="../bootstrap/3.3.7/js/jquery.min.js" type="text/javascript"></script>
-      <script src="../bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
-      <script type="text/javascript" src="../js/util.js"></script>
+      <link rel="stylesheet" href="../assets/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+      <link rel="stylesheet" href="../assets/css/custom.css" type="text/css" />
+      <script src="../assets/bootstrap/3.3.7/js/jquery.min.js" type="text/javascript"></script>
+      <script src="../assets/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+      <script type="text/javascript" src="../assets/js/util.js"></script>
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-76415207-1" type="text/javascript"></script>
       <script type="text/javascript">
@@ -50,9 +50,9 @@
                   var divThumbnail = document.createElement('div');
                   divThumbnail.classList.add('thumbnail');
                   var link = document.createElement('a');
-                  link.href = "gallery-detail.html?title=" + order[i*colunm + j];
+                  link.href = "detail.html?title=" + order[i*colunm + j];
                   var img = document.createElement('img');
-                  img.src = "../images/" + order[i*colunm + j];
+                  img.src = "images/" + order[i*colunm + j];
                   link.appendChild(img);
                   divThumbnail.appendChild(link);
                   var divCaption = document.createElement('div');
@@ -78,9 +78,9 @@
                   var divThumbnail = document.createElement('div');
                   divThumbnail.classList.add('thumbnail');
                   var link = document.createElement('a');
-                  link.href = "gallery-detail.html?title=" + order[row*colunm + i];
+                  link.href = "detail.html?title=" + order[row*colunm + i];
                   var img = document.createElement('img');
-                  img.src = "../images/" + order[row*colunm + i];
+                  img.src = "images/" + order[row*colunm + i];
                   link.appendChild(img);
                   divThumbnail.appendChild(link);
                   var divCaption = document.createElement('div');
@@ -100,9 +100,9 @@
             var language = localStorage.getItem('verazhang.com?language=');
              var text;
                      if (language == '中文') {
-                        text = 'gallery-description-ch';
+                        text = 'description-ch';
                      } else {
-                        text = 'gallery-description-en';
+                        text = 'description-en';
                      }
             readTextFile(text, function(param){
                 var json = JSON.parse(param);
@@ -126,11 +126,11 @@
          <script type="text/javascript">
             createFooterLinks('footer-links',
                 {
-                    "featured": "../../index.html",
-                    "artworks": "gallery.html",
-                    "blog": "../blog/index.html",
-                    "aboutme": "about.html",
-                    "supportme": "support.html"
+                    "featured": "../",
+                    "artworks": "./",
+                    "blog": "../blog/",
+                    "aboutme": "../about/",
+                    "supportme": "../support/"
                 },
                 'Art works'
             );                
