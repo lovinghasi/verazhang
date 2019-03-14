@@ -222,5 +222,61 @@
     "description": "这也是在问你，你是在某些人的画里吗？",
     "width": "121.9",
     "height": "91.4"
+  }, 
+    "art33.jpg": {
+    "title": "自画像",
+    "material": "丙烯颜料，画布",
+    "description": "脑子里有太多的东西，不如插上耳机，让音乐去领路。",
+    "width": "30.5",
+    "height": "45.7"
+  }, 
+    "art34.jpg": {
+    "title": "带花帽子的女人",
+    "material": "丙烯颜料，画布",
+    "description": "我希望春天能再长点，长一点，这样花开的就久一点。",
+    "width": "30.5",
+    "height": "45.7"
+  }, 
+    "art35.jpg": {
+    "title": "中国娃娃",
+    "material": "丙烯颜料，画布",
+    "description": "我在一家餐厅看到了这幅字，觉得画下来应该很漂亮，所以我画了。",
+    "width": "30.5",
+    "height": "45.7"
+  }, 
+    "art36.jpg": {
+    "title": "带着鸟的女人",
+    "material": "丙烯颜料，画布",
+    "description": "这画的是一个朋友，她有着很漂亮的外套，我觉得应该要有一只鸟，这样她们就能在家说话了。",
+    "width": "30.5",
+    "height": "45.7"
+  }, 
+    "art37.jpg": {
+    "title": "穿黄色上衣的女孩",
+    "material": "丙烯颜料，画布",
+    "description": "一个朋友",
+    "width": "30.5",
+    "height": "45.7"
+  }, 
+    "art38.jpg": {
+    "title": "诗，经，和触碰",
+    "material": "丙烯颜料，画布",
+    "description": "我给我的美国朋友们讲了字的内容，他们都笑了，开心能见到来自中国古代诗人的智慧。",
+    "width": "未知",
+    "height": "未知"
+  }, 
+    "art39.jpg": {
+    "title": "跳舞的人",
+    "material": "丙烯颜料，画布",
+    "description": "本来是要画一幅旧作品，却画出了新感觉。",
+    "width": "30.5",
+    "height": "45.7"
+  }, 
+    "art40.jpg": {
+    "title": "永远的友谊",
+    "material": "丙烯颜料，画布",
+    "description": "为了一个朋友。",
+    "width": "45.7",
+    "height": "30.5"
   }
 }

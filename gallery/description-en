@@ -222,5 +222,61 @@
     "description": "It's a question to you too, are you in someone else's painting?",
     "width": "48",
     "height": "36"
+  }, 
+    "art33.jpg": {
+    "title": "Self Portrait",
+    "material": "Acrylic on canvas",
+    "description": "Too many things on the brain, put on some music and let them dance.",
+    "width": "16",
+    "height": "20"
+  }, 
+    "art34.jpg": {
+    "title": "A woman with a flower hat.",
+    "material": "Acrylic on canvas",
+    "description": "I wish Spring last longer. And the flowers bloom longer.",
+    "width": "16",
+    "height": "20"
+  }, 
+    "art35.jpg": {
+    "title": "Chinese doll.",
+    "material": "Acrylic on canvas",
+    "description": "I saw these chinese characters in a restaurant the other day. Thought it would be nice to put on the canvas. So I did.",
+    "width": "16",
+    "height": "20"
+  }, 
+    "art36.jpg": {
+    "title": "A woman with a bird.",
+    "material": "Acrylic on canvas",
+    "description": "This is about a friend, who just have this nice jacket matching with a nice shirt. I wish she had a bird friend. Then they can talk at home.",
+    "width": "16",
+    "height": "20"
+  }, 
+    "art37.jpg": {
+    "title": "A girl with a yellow shirt.",
+    "material": "Acrylic on canvas",
+    "description": "This is about a friend.",
+    "width": "16",
+    "height": "20"
+  }, 
+    "art38.jpg": {
+    "title": "A poem, a connection.",
+    "material": "Acrylic on canvas",
+    "description": "I told this chinese poem to all my American friends, they all laughed after understanding it, it is wisdom from an acient man.",
+    "width": "unknown",
+    "height": "unknown"
+  }, 
+    "art39.jpg": {
+    "title": "A dancing group.",
+    "material": "Acrylic on canvas",
+    "description": "I was trying to model off an old work, then discovered something new.",
+    "width": "16",
+    "height": "20"
+  }, 
+    "art40.jpg": {
+    "title": "Friends forever.",
+    "material": "Acrylic on canvas",
+    "description": "For a friend.",
+    "width": "20",
+    "height": "16"
   }
 }
