@@ -278,5 +278,19 @@
     "description": "为了一个朋友。",
     "width": "45.7",
     "height": "30.5"
+  }, 
+    "art41.jpg": {
+    "title": "长发女孩",
+    "material": "丙烯颜料，画布",
+    "description": "胡思乱想。",
+    "width": "45.7",
+    "height": "30.5"
+  }, 
+    "art42.jpg": {
+    "title": "眼泪永远是真实的",
+    "material": "丙烯颜料，画布",
+    "description": "我永远也忘不了那些难做的决定。",
+    "width": "45.7",
+    "height": "30.5"
   }
 }
