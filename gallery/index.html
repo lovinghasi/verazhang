@@ -91,7 +91,7 @@
                   divThumbnail.appendChild(link);
                   var divCaption = document.createElement('div');
                   divCaption.class = "caption";
-                  var details = description[order[i*colunm + j]];
+                  var details = description[order[row*colunm + i]];
                   var p = document.createElement('p');
                   var pText;
                   if (language == '中文') {
@@ -115,21 +115,46 @@
                 text = 'description-en';
             }
             readTextFile(text, function(param){
-                var json = JSON.parse(param);
-                addImages(["art38.jpg", "art39.jpg", "art40.jpg",
-                           "art1.jpg", "art2.jpg", "art6.jpg",
-                           "art27.jpg", "art24.jpg", "art25.jpg", 
-                           "art26.jpg", "art23.jpg", "art18.jpg", 
-                           "art14.jpg", "art16.jpg", "art15.jpg",
-                            "art17.jpg", "art20.jpg", "art22.jpg", 
-                           "art3.jpg", "art4.jpg", "art5.jpg", 
-                           "art7.jpg", "art8.jpg", "art10.jpg", 
-                            "art9.jpg", "art12.jpg", "art13.jpg", 
-                           "art21.jpg","art19.jpg", "art30.jpg",
-                           "art29.jpg", "art32.jpg","art28.jpg", 
-                           "art31.jpg"],
-                            json, 3);
+              var json = JSON.parse(param);
+              var p2019 = document.createElement('p');
+              p2019.classList.add("gallery-p-center");
+              var text2019 = document.createTextNode("2019");
+              p2019.appendChild(text2019);
+              document.getElementById('content').appendChild(p2019);
+              addImages(["art38.jpg", "art39.jpg", "art40.jpg"],
+                          json, 3);
+              var p2018 = document.createElement('p');
+              p2018.classList.add("gallery-p-center");
+              var text2018 = document.createTextNode("2018");
+              p2018.appendChild(text2018);
+              document.getElementById('content').appendChild(p2018);
+              addImages(["art32.jpg",  "art28.jpg", "art31.jpg", 
+                "art30.jpg",  "art19.jpg","art21.jpg", 
+                 "art27.jpg", "art24.jpg", "art25.jpg", 
+                 "art26.jpg", "art23.jpg", "art18.jpg", 
+                 "art22.jpg", "art17.jpg", "art20.jpg",  
+                     "art16.jpg", "art15.jpg","art14.jpg",
+                     "art1.jpg", "art2.jpg", "art3.jpg", 
+                     "art4.jpg", "art5.jpg"],
+                      json, 3);
+              var p2017 = document.createElement('p');
+              p2017.classList.add("gallery-p-center");
+              var text2017 = document.createTextNode("2017");
+              p2017.appendChild(text2017);
+              document.getElementById('content').appendChild(p2017);
+              addImages([
+                   "art8.jpg", "art7.jpg",  "art6.jpg","art12.jpg", "art13.jpg"],
+                    json, 3);
+              var p2016 = document.createElement('p');
+              p2016.classList.add("gallery-p-center");
+              var text2016 = document.createTextNode("2016");
+              p2016.appendChild(text2016);
+              document.getElementById('content').appendChild(p2016);
+              addImages([
+                    "art10.jpg","art9.jpg"],
+                    json, 3);
             });
+
          </script>
       </main>
       <footer class="footer">
