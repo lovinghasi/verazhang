@@ -1,3 +1,19 @@
+var hasStorage = (function() {
+    try {
+        localStorage.setItem("test", "test");
+        localStorage.removeItem("test");
+        return true;
+    } catch (exception) {
+        return false;
+    }
+}());
+
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 function readTextFile(file, conmpletionFunction)
 {
   var rawFile = new XMLHttpRequest();

@@ -26,36 +26,135 @@
       </script>
    </head>
    <body>
-    <div id ="content"></div>
       <script type="text/javascript">
-        function getRandomInt(min, max) {
-            min = Math.ceil(min);
-            max = Math.floor(max);
-            return Math.floor(Math.random() * (max - min + 1)) + min;
+        if (hasStorage) { 
+          var tag = "verazhangsite";
+          var uuid = localStorage.getItem(tag);
+          if (uuid != null) {
+            uuid = parseInt(uuid);
+            uuid = uuid + 1;
+            switch(uuid){
+            case 0:
+              window.location.href = "0.html";
+            break;
+            case 1:
+              window.location.href = "1.html";
+              break;
+            case 2:
+              window.location.href = "2.html";
+              break;
+            case 3:
+              window.location.href = "3.html";
+              break;
+            case 4:
+              window.location.href = "4.html";
+              break;
+            case 5:
+              window.location.href = "5.html";
+              break;
+            case 6:
+              window.location.href = "6.html";
+              break;
+            case 7:
+              window.location.href = "7.html";
+              break;
+            case 8:
+              window.location.href = "8.html";
+              break;
+            case 9:
+              window.location.href = "9.html";
+              break;
+            case 10:
+              window.location.href = "10.html";
+              break;
+            case 11:
+              window.location.href = "11.html";
+              break;
+            case 12:
+              window.location.href = "12.html";
+              break;
+            case 13:
+              window.location.href = "13.html";
+              break;
+            case 14:
+              window.location.href = "14.html";
+              break;
+            case 15:
+              window.location.href = "15.html";
+              break;
+            case 16:
+              window.location.href = "16.html";
+              break;
+            case 17:
+              window.location.href = "17.html";
+              break;
+            case 18:
+              window.location.href = "18.html";
+              break;
+            case 19:
+              window.location.href = "19.html";
+              break;
+            case 20:
+              window.location.href = "20.html";
+              break;
+            case 21:
+              window.location.href = "21.html";
+              break;
+            case 22:
+              window.location.href = "22.html";
+              break;
+            case 23:
+              window.location.href = "23.html";
+              break;
+            case 24:
+              window.location.href = "24.html";
+              break;
+            case 25:
+              window.location.href = "25.html";
+              break;
+            case 26:
+              window.location.href = "26.html";
+              break;
+            case 27:
+              window.location.href = "27.html";
+              break;
+            case 28:
+              window.location.href = "28.html";
+              break;
+            case 29:
+              window.location.href = "29.html";
+              break;
+            default:
+              window.location.href = "reset.html";
+              break;
+            }
+            localStorage.setItem(tag, uuid);
+          } else {
+            localStorage.setItem(tag, 0);
+            window.location.href = "0.html";
+          }
+        } else {
+          var div = document.createElement("div");
+          div.classList.add("container");
+          div.classList.add("main");
+          var div1 = document.createElement("div");
+          var text = document.createTextNode("Your browser doesn't support my app, time to upgrade!");
+          div1.appendChild(text);
+          div2 = document.createElement("div");
+          var checkoutText = document.createTextNode("Or check out ");
+          var link  = document.createElement("a");
+          var linkText = document.createTextNode("my website");
+          link.appendChild(linkText);
+          link.href = "../";
+          link.className = "black-link-underline";
+          div2.appendChild(checkoutText);
+          div2.appendChild(link);
+          var period = document.createTextNode(".");
+          div2.appendChild(period);
+          div.appendChild(div1); 
+          div.appendChild(div2);        
+          document.getElementsByTagName('body')[0].appendChild(div);v
         }
-        var number = getRandomInt(0,4);
-        switch(number){
-          case 0:
-            window.location.href = "../";
-            break;
-          case 1:
-            window.location.href = "../gallery/detail.html?title=art32.jpg";
-            break;
-          case 2:
-            window.location.href = "../gallery/detail.html?title=art40.jpg";
-            break;
-          case 3:
-            window.location.href = "../gallery/detail.html?title=art28.jpg";
-            break;
-          case 4:
-            window.location.href = "../gallery/detail.html?title=art13.jpg";
-            break;
-          default:
-            window.location.href = "../";
-            break;
-        }
-
-        
       </script>
    </body>
 </html>

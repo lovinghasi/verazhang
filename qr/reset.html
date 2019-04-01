@@ -1,0 +1,57 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>Vera Zhang</title>
+      <meta charset="utf-8" />
+      <meta name="keywords" content="vera,zhang,chinese,artist,fine,art">
+      <meta name="description" content="Contemporary Chinese Artist producing Fine Art.">
+      <meta name="author" content="Vera Zhang">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="../assets/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+      <link rel="stylesheet" href="../assets/css/custom.css" type="text/css" />
+      <script src="../assets/bootstrap/3.3.7/js/jquery.min.js" type="text/javascript"></script>
+      <script src="../assets/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+      <script type="text/javascript" src="../assets/js/util.js"></script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-76415207-1" type="text/javascript"></script>
+      <script type="text/javascript">
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         
+         gtag('config', 'UA-76415207-1');
+      </script>
+   </head>
+   <body>
+      <script type="text/javascript">
+        if (hasStorage) { 
+        	var tag = "verazhangsite";
+          localStorage.setItem(tag, -1);
+          var div = document.createElement("div");
+          div.className = "container";
+          div.innerHTML = "<br><p style='text-align:center;'>Resetting...</p><br><br><p style='text-align:center;'><a href='../'>Vera Zhang</a></p>"
+          document.getElementsByTagName('body')[0].appendChild(div);
+        } else {
+	        var div = document.createElement("div");
+	        div.classList.add("container");
+	        div.classList.add("main");
+	        var div1 = document.createElement("div");
+	        var text = document.createTextNode("Your browser doesn't support my app, time to upgrade!");
+	        div1.appendChild(text);
+	        div2 = document.createElement("div");
+	        var checkoutText = document.createTextNode("Or check out ");
+	        var link  = document.createElement("a");
+	        var linkText = document.createTextNode("my website");
+	        link.appendChild(linkText);
+	        link.href = "../";
+	        link.className = "black-link-underline";
+	        div2.appendChild(checkoutText);
+	        div2.appendChild(link);
+	        var period = document.createTextNode(".");
+	        div2.appendChild(period);
+			    div.appendChild(div1); 
+			    div.appendChild(div2);        
+	        document.getElementsByTagName('body')[0].appendChild(div);
+        }
+      </script>
+   </body>
+</html>
