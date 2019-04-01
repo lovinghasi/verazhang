@@ -22,12 +22,19 @@
       </script>
    </head>
    <body>
-    <div class="container">
-       <p>Welcome Back!</p>
-       <p>Seems like you like to play, haha!</p>
-       <p>What if I tell you to scan one more time?</p>
-       <p>You can also check out <a href="../">my website</a>!</p>
-    </div>
-      
+    <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+    <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "<p>欢迎回来!</p><p>看来你很喜欢玩啊，哈哈!</p><p>那如果我让你再扫一次码呢!</p><p>或者去看看我的<a href=\"../\">网站</a>!</p>";
+        } else {
+          document.getElementById('content').innerHTML = "<p>Welcome Back!</p><p>Seems like you like to play, haha!</p><p>What if I tell you to scan one more time?</p><p>You can also check out <a href=\"../\">my website</a>!</p>";
+        }
+    </script>
    </body>
 </html>

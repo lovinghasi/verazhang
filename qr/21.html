@@ -22,13 +22,19 @@
       </script>
    </head>
    <body>
-    <div class="container">
-		<br>
-       	<p>How's your friend doing?</p>
-       	<br>
-       	<br>
-       	<p>If you can't find a topic to chat with, start by sharing <a href="../">my website</a>?</p>
-    </div>
-      
+    <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "<br><p>你的朋友怎么样?</p>        <br><br>      <p>不知道聊什么，可以从分享我的<a href=\"../\">网站</a>开始?</p>";
+        } else {
+          document.getElementById('content').innerHTML = "<br><p>How's your friend doing?</p>        <br><br>      <p>If you can't find a topic to chat with, start by sharing <a href=\"../\">my website</a>?</p>";
+        }
+    </script>  
    </body>
 </html>

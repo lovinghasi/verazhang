@@ -22,15 +22,20 @@
       </script>
    </head>
    <body>
-    <div class="container">
-       <img class='img-responsive' src="../gallery/images/art17.jpg"/>
-       <img class='img-responsive' src="../gallery/images/art32.jpg"/>
-       <p>These two are two versions of Skinner box, if you remember from previous reading.</p>
-       <p>The first is about a human living inside a cave. His entire life only knows the shadows on the wall of the cave. He thought himself as a shadow too. However, he's happy. Is it necessary to tell him that there's a bigger world?</p>
-       <p>The second painting is about four people looking at a painting, where themselves are in the paintings viewed by you! Who's in the painting? Do you want to tap on their shoulders and tell them?</p>
-       <p>Scan the QR code for more story.</p>
-       <p>Or check out <a href="../">my website</a>!</p>
-    </div>
+    <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "  <img class='img-responsive' src=\"../gallery/images/art17.jpg\"/><img class='img-responsive' src=\"../gallery/images/art32.jpg\"/><p>这两幅是斯金纳箱子的变种，如果你还记得我之前给你讲的故事。</p> <p>第一幅是一个住在洞穴里的人。他全部的人生只知道墙上的影子。他觉得自己也是一个影子。但是，他很快乐。有必要告诉他外面还有更大的世界嘛？</p>       <p>第二幅画是四个人在欣赏一幅画，让我想起卞之琳的一首诗，你站在桥上看风景，看风景人在楼上看你。到底是谁在画里？你想拍拍那四个人的肩膀告诉他们他们也是画嘛？</p> <p>请扫码看更多的故事。</p>       <p>或者看看我的<a href=\"../\">网站</a>!</p>";
+        } else {
+          document.getElementById('content').innerHTML = " <img class='img-responsive' src=\"../gallery/images/art17.jpg\"/>       <img class='img-responsive' src=\"../gallery/images/art32.jpg\"/>       <p>These two are two versions of Skinner box, if you remember from previous reading.</p><p>The first is about a human living inside a cave. His entire life only knows the shadows on the wall of the cave. He thought himself as a shadow too. However, he's happy. Is it necessary to tell him that there's a bigger world?</p>       <p>The second painting is about four people looking at a painting, where themselves are in the paintings viewed by you! Who's in the painting? Do you want to tap on their shoulders and tell them?</p>       <p>Scan the QR code for more story.</p>       <p>Or check out <a href=\"../\">my website</a>!</p>";
+        }
+    </script>
       
    </body>
 </html>

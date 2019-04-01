@@ -22,15 +22,20 @@
       </script>
    </head>
    <body>
-    <div class="container">
-       <img class='img-responsive' src="../gallery/images/art25.jpg"/>
-       <p>Have you heard of a Skinner's box?</p>
-       <p>A Skinner's box is a psychological experiment. It's a box full of pigeons where the experimenter randomly drop food to the inside of the box. After a while, the pigeons developed a variety of behaviors with the belief that these behaviors can bring them food. For example, they dance. You can search on the internet to read more.</p>
-       <p>So I painted this, a pigeon break out of a skinner box, and actually see the real world.</p>
-       <p>I think life is the same, you'll never know the real world unless you break the box around you.</p>
-       <p>Scan the QR code for more story.</p>
-       <p>Or check out <a href="../">my website</a>!</p>
-    </div>
+                            <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = " <img class='img-responsive' src=\"../gallery/images/art25.jpg\"/>       <p>听说过斯金纳箱子吗?</p>       <p>斯金纳箱子是一个心理学实验。它是一个装满了鸽子的箱子，同时实验人员会随机往里投放食物。过了一阵，鸽子们会发展出各种各样的行为来求食。比如说，跳舞。你可以上网搜一下。</p>       <p>我画了一只鸽子冲破了斯金纳箱子，终于看到了外面的世界。</p>  <p>我觉得生活也是一样，如果你不突破一下，你永远不知道真实的生活是什么样子的。</p>       <p>请扫码看更多的故事。</p>       <p>或者看看我的<a href=\"../\">网站</a>!</p>";
+        } else {
+          document.getElementById('content').innerHTML = " <img class='img-responsive' src=\"../gallery/images/art25.jpg\"/>       <p>Have you heard of a Skinner's box?</p>       <p>A Skinner's box is a psychological experiment. It's a box full of pigeons where the experimenter randomly drop food to the inside of the box. After a while, the pigeons developed a variety of behaviors with the belief that these behaviors can bring them food. For example, they dance. You can search on the internet to read more.</p>       <p>So I painted this, a pigeon break out of a skinner box, and actually see the real world.</p>  <p>I think life is the same, you'll never know the real world unless you break the box around you.</p>       <p>Scan the QR code for more story.</p>       <p>Or check out <a href=\"../\">my website</a>!</p>";
+        }
+    </script>
       
    </body>
 </html>

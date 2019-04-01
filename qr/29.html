@@ -22,13 +22,19 @@
       </script>
    </head>
    <body>
-    <div class="container">
-    	<br>
-       	<p>This is the real real real real real end.</p>
-       	<p>But I don't promise that I won't work on this project in the future.</p>
-       	<br>
-       	<p>Check <a href="../">my website</a> for updates!</p>
-    </div>
-      
+    <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "<br>        <p>真的真的真的真的真的结束了。</p>        <p>但我不保证以后不更新后台。</p>        <br>       <p>上<a href=\"../\">网站</a>看更新!</p>";
+        } else {
+          document.getElementById('content').innerHTML = "<br>        <p>This is the real real real real real end.</p>        <p>But I don't promise that I won't work on this project in the future.</p>        <br>       <p>Check <a href=\"../\">my website</a> for updates!</p>";
+        }
+    </script>  
    </body>
 </html>

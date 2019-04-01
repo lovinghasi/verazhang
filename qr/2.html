@@ -22,17 +22,20 @@
       </script>
    </head>
    <body>
-    <div class="container">
-       <p>Third try, nice!</p>
-       <p>This is a place holder for my new art work.</p>
-       <p>Which I haven't painted yet.</p>
-       <p>You can keep scanning to see my story now.</p>
-       <p>I created this project on April 1st.</p>
-       <p>But I promise you it's not a joke.</p>
-       <p>It's just, art is a progress to perfection.</p>
-       <p>And I'm working on a good start and a perfect ending.</p>
-       <p>Maybe you can check out <a href="../">my website</a>!</p>
-    </div>
+        <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+        <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "<p>你居然扫了三次，太棒了!</p><p>我会在这里放我的新画!</p><p>虽然我还没有什么新作品～</p><p>你可以继续扫码看看我的故事。</p><p>我是4月1号愚人节创立这个项目的，</p><p>但我并不是来搞笑的。</p><p>艺术是一个通向完美的过程。</p><p>而我会在接下来的故事中展示这些。</p><p>或者去看看我的<a href=\"../\">网站</a>!</p>";
+        } else {
+          document.getElementById('content').innerHTML = "<p>Third try, nice!</p><p>This is a place holder for my new art work.</p><p>Which I haven't painted yet.</p><p>You can keep scanning to see my story now.</p><p>I created this project on April 1st.</p><p>But I promise you it's not a joke.</p><p>It's just, art is a progress to perfection.</p><p>And I'm working on a good start and a perfect ending.</p><p>Maybe you can check out <a href=\"../\">my website</a>!</p>";
+        }
+    </script>
       
    </body>
 </html>

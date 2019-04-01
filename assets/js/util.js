@@ -60,18 +60,20 @@ function createHeaderContents(containerName, pageTitle) {
     buttonChinese.appendChild(buttonChineseText);
     buttonDiv.appendChild(buttonChinese);
     document.getElementById(containerName).appendChild(buttonDiv);
-    var title = document.createElement('h1');
-    title.align = "center";
-    var language = localStorage.getItem('verazhang.com?language=');
-    var titleText;
-    if (language) {
-       titleText = document.createTextNode(pageTitle[language]);
-    } else {
-        titleText = document.createTextNode(pageTitle['English']);
-    }
+    if (pageTitle != null) {
+        var title = document.createElement('h1');
+        title.align = "center";
+        var language = localStorage.getItem('verazhang.com?language=');
+        var titleText;
+        if (language) {
+           titleText = document.createTextNode(pageTitle[language]);
+        } else {
+            titleText = document.createTextNode(pageTitle['English']);
+        }
 
-    title.appendChild(titleText);
-    document.getElementById(containerName).appendChild(title);
+        title.appendChild(titleText);
+        document.getElementById(containerName).appendChild(title);
+    }
 }
 function createFooterLinks(containerName, links, pageName) {
     var ul = document.createElement('ul');

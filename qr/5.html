@@ -22,14 +22,19 @@
       </script>
    </head>
    <body>
-    <div class="container">
-       <p>My first self portrait.</p>
-       <img class='img-responsive' src="../gallery/images/art1.jpg"/>
-       <p>I got a lot of compliments on this self portrait, it's when I seriously considered continuing to paint. I specially thank my firends who supported me along the way. If not for them, I wouldn't start this journey.</p>
-       <p>I am a programmer. When I code, I like to hear music, which means I have the ear plugs plugged in all day. That inspired this drawing.</p>
-       <p>Scan the QR code for more story.</p>
-       <p>Or check out <a href="../">my website</a>!</p>
-    </div>
-      
+                    <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "  <p> 我的第一幅自画像。</p>       <img class='img-responsive' src=\"../gallery/images/art1.jpg\"/>       <p>这幅画得到了很多的鼓励，然后我才开始认真的绘画。我要特别感谢一下一路支持我的朋友们。没有她们，我不可能走到这里。</p>       <p>我是个程序媛，当我编程的时候我喜欢一直听歌，这意味着我一整天都带着耳机，这是这幅画的灵感来源。</p><p>请扫码看更多的故事。</p>       <p>或者看看我的<a href=\"../\">网站</a>!</p>";
+        } else {
+          document.getElementById('content').innerHTML = "  <p>My first self portrait.</p>       <img class='img-responsive' src=\"../gallery/images/art1.jpg\"/>       <p>I got a lot of compliments on this self portrait, it's when I seriously considered continuing to paint. I specially thank my firends who supported me along the way. If not for them, I wouldn't start this journey.</p>       <p>I am a programmer. When I code, I like to hear music, which means I have the ear plugs plugged in all day. That inspired this drawing.</p><p>Scan the QR code for more story.</p>       <p>Or check out <a href=\"../\">my website</a>!</p>";
+        }
+    </script>
    </body>
 </html>

@@ -22,13 +22,19 @@
       </script>
    </head>
    <body>
-    <div class="main container">
-       <p>This is the start of my art journey.</p>
-       <p>I drew with my eyes closed, put all my emotions on the paper, and it came out amazing. It's the moment I realize the magic of art.</p>
-       <img class='img-responsive' src="../gallery/images/art9.jpg"/>
-       <p>Scan the QR code for more story.</p>
-       <p>Or check out <a href="../">my website</a>!</p>
-    </div>
-      
+            <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "<p>这是我艺术之旅的开始。</p><p>我闭着眼睛，把所有的情绪释放在纸上，最后出来的效果惊人的好。我开始意识到艺术的精妙。</p><img class='img-responsive' src=\"../gallery/images/art9.jpg\"/><p>请扫码看更多的故事。</p>       <p>或者看看我的<a href=\"../\">网站</a>!</p>";
+        } else {
+          document.getElementById('content').innerHTML = "<p>This is the start of my art journey.</p>       <p>I drew with my eyes closed, put all my emotions on the paper, and it came out amazing. It's the moment I realize the magic of art.</p><img class='img-responsive' src=\"../gallery/images/art9.jpg\"/><p>Scan the QR code for more story.</p>       <p>Or check out <a href=\"../\">my website</a>!</p>";
+        }
+    </script>
    </body>
 </html>

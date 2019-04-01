@@ -22,11 +22,19 @@
       </script>
    </head>
    <body>
-    <div class="container">
-    	<img class="img-responsive" src="images/not_working.jpg"/>
-       	<p>This is the first version of my QR code project. It's aesthetically better but useless. Sometimes you have to balance between pratical and ideal.</p>
-       	<p>Check <a href="../">my website</a> for updates!</p>
-    </div>
-      
+    <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "<img class=\"img-responsive\" src=\"images/not_working.jpg\"/>       <p>这是QR code项目的第一版，但是不能扫。它看起来更美一些但毫无用武之地。有些时候，你需要在理想和现实之间找到一个平衡。</p>        <p>上<a href=\"../\">网站</a>看更新!</p>";
+        } else {
+          document.getElementById('content').innerHTML = "<img class=\"img-responsive\" src=\"images/not_working.jpg\"/>       <p>This is the first version of my QR code project. It's aesthetically better but useless. Sometimes you have to balance between pratical and ideal.</p>        <p>Check <a href=\"../\">my website</a> for updates!</p>";
+        }
+    </script>     
    </body>
 </html>

@@ -22,12 +22,19 @@
       </script>
    </head>
    <body>
-    <div class="container">
-		<br>
-       	<p>I feel so honored you're stilling scanning this. I'm starting to imagine that if I exhibit this QR code piece, all the audience will stand there checking their phones instead of looking at the painting. Haha, that means you too.</p>
-       	<p>So stopping scanning or keep checking your phone. Look up, see your surroundings, and find a friend to chat!</p>
-       	<p>Don't check <a href="../">my website</a>!</p>
-    </div>
-      
+    <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "<br><p>我感到很荣幸你还在扫码。这让我开始想到，有一天，当我展出这个码时，所有人都拿着手机在看，而忽略了画本身。哈哈，你不也是么。</p>        <p>所以不要扫码了，抬头看看四周，找个朋友聊聊天？</p>        <p>不要看我的<a href=\"../\">网站</a>!</p>";
+        } else {
+          document.getElementById('content').innerHTML = "<br>        <p>I feel so honored you're stilling scanning this. I'm starting to imagine that if I exhibit this QR code piece, all the audience will stand there checking their phones instead of looking at the painting. Haha, that means you too.</p>        <p>So stopping scanning or keep checking your phone. Look up, see your surroundings, and find a friend to chat!</p>        <p>Don't check <a href=\"../\">my website</a>!</p>";
+        }
+    </script>  
    </body>
 </html>

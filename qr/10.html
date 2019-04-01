@@ -22,14 +22,20 @@
       </script>
    </head>
    <body>
-    <div class="container">
-       <img class='img-responsive' src="../gallery/images/art30.jpg"/>
-       <p>This is one of my favorites.</p>
-       <p>You close your eyes when you're kissing.The gentle touch on the lips tell you more about this person.</p>
-       <p>And this is the last painting I'll be telling a story about.</p>
-       <p>Scan the QR code, maybe?</p>
-       <p>Or check out <a href="../">my website</a>!</p>
-    </div>
+    <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "   <img class='img-responsive' src=\"../gallery/images/art30.jpg\"/>       <p>这是我最喜欢的几幅之一。</p><p>亲吻的时候要闭上眼睛，才能去感受那唇间的温柔。</p>       <p>好了，这是最后一个关于画的故事了。</p>       <p>再扫扫码？</p>       <p>或者看看我的<a href=\"../\">网站</a>!</p>";
+        } else {
+          document.getElementById('content').innerHTML = "  <img class='img-responsive' src=\"../gallery/images/art30.jpg\"/>       <p>This is one of my favorites.</p><p>You close your eyes when you're kissing.The gentle touch on the lips tell you more about this person.</p>       <p>And this is the last painting I'll be telling a story about.</p>       <p>Scan the QR code, maybe?</p>       <p>Or check out <a href=\"../\">my website</a>!</p>";
+        }
+    </script>
       
    </body>
 </html>

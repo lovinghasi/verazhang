@@ -22,14 +22,24 @@
       </script>
    </head>
    <body>
+    <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
       <script type="text/javascript">
         if (hasStorage) { 
-        	var tag = "verazhangsite";
+        	var tag = "verazhang.com?qr=";
           localStorage.setItem(tag, -1);
           var div = document.createElement("div");
-          div.className = "container";
+          var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          div.innerHTML = "<br><p style='text-align:center;'>重新设置...</p><br><br><p style='text-align:center;'><a href='../'>Vera Zhang</a></p>"
+        } else {
           div.innerHTML = "<br><p style='text-align:center;'>Resetting...</p><br><br><p style='text-align:center;'><a href='../'>Vera Zhang</a></p>"
-          document.getElementsByTagName('body')[0].appendChild(div);
+        }
+          document.getElementById('content').appendChild(div);
         } else {
 	        var div = document.createElement("div");
 	        div.classList.add("container");
@@ -50,7 +60,7 @@
 	        div2.appendChild(period);
 			    div.appendChild(div1); 
 			    div.appendChild(div2);        
-	        document.getElementsByTagName('body')[0].appendChild(div);
+	        document.getElementById('content').appendChild(div);
         }
       </script>
    </body>

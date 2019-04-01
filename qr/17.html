@@ -22,13 +22,19 @@
       </script>
    </head>
    <body>
-    <div class="container">
-<br>
-       	<p>Seriously, I only painted for two years. Don't have that many works to show.</p>
-       	<br>
-       	<br>
-       	<p>Or check out <a href="../">my website</a>!</p>
-    </div>
-      
+    <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "<br><p>说真的，我才画了两年，没有那么多画给你看。</p><br><br><p>不如看我的<a href=\"../\">网站</a>!</p>";
+        } else {
+          document.getElementById('content').innerHTML = "<br><p>Seriously, I only painted for two years. Don't have that many works to show.</p><br><br><p>Or check out <a href=\"../\">my website</a>!</p>";
+        }
+    </script>
    </body>
 </html>

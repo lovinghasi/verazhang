@@ -22,14 +22,20 @@
       </script>
    </head>
    <body>
-    <div class="container">
-    			<br>
-       	<p>Joking.</p>
-		<br>
-		<br>
-       	<p>There will be more stories.</p>
-       	<p>Or check out <a href="../">my website</a>!</p>
-    </div>
+    <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "    <br><p>开玩笑的。</p>    <br><br>        <p>会有更多的故事的。</p>        <p>或者看看我的<a href=\"../\">网站</a>!</p>";
+        } else {
+          document.getElementById('content').innerHTML = "    <br><p>Joking.</p>    <br><br>        <p>There will be more stories.</p>        <p>Or check out <a href=\"../\">my website</a>!</p>";
+        }
+    </script>
       
    </body>
 </html>

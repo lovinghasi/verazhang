@@ -22,13 +22,19 @@
       </script>
    </head>
    <body>
-    <div class="container">
-		<br>
-		<br>
-		<br>
-       	<p>I told you. This is the end.</p>
-       	<p>But <a href="../">my website</a> may have updates!</p>
-    </div>
-      
+    <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "<br><br><br><p>已经说过了，结束了。</p>        <p>但是<a href=\"../\">网站</a>可能有更新!</p>";
+        } else {
+          document.getElementById('content').innerHTML = "<br><br><br><p>I told you. This is the end.</p>        <p>But <a href=\"../\">my website</a> may have updates!</p>";
+        }
+    </script> 
    </body>
 </html>

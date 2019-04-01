@@ -22,13 +22,19 @@
       </script>
    </head>
    <body>
-    <div class="container">
-<br>
-       	<p>You can follow me on instagram for latest updates on my paintings. @vera_z</p>
-       	<br>
-       	<br>
-       	<p>Or check out <a href="../">my website</a>!</p>
-    </div>
-      
+    <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "<br><p>请关注我的instagram: @vera_z，新画一般会及时更新在上面，不用靠扫码！</p>        <br><br>       <p>有空也可以看看<a href=\"../\">网站</a>!</p>";
+        } else {
+          document.getElementById('content').innerHTML = "<br><p>You can follow me on instagram for latest updates on my paintings. @vera_z</p>        <br><br>       <p>Or check out <a href=\"../\">my website</a>!</p>";
+        }
+    </script> 
    </body>
 </html>

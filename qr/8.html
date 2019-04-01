@@ -22,13 +22,20 @@
       </script>
    </head>
    <body>
-    <div class="container">
-       <img class='img-responsive' src="../gallery/images/art28.jpg"/>
-       <p>I decided to go to an art school.</p>
-       <p>This is a project I did during the school. I challenged myself to paint more complicated surface than simple strokes. I thought, what could be more complicated than a moon surface, then this happened. Then I learned, it's nothing but light. If you get the light right, you get the painting right.</p>
-       <p>Scan the QR code for more story.</p>
-       <p>Or check out <a href="../">my website</a>!</p>
-    </div>
+                                <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "     <img class='img-responsive' src=\"../gallery/images/art28.jpg\"/>     <p>我决定去上艺术学校。</p>       <p>这是我在学校的时候画的一幅画。我挑战我自己去画复杂的表面而不是简单的线条。我想，没有比月球更复杂的表面了吧，于是就有了这幅画。然后我意识到，一切都是光的作用，只要画对了光，你就画好了。</p>       <p>请扫码看更多的故事。</p>       <p>或者看看我的<a href=\"../\">网站</a>!</p>";
+        } else {
+          document.getElementById('content').innerHTML = "        <img class='img-responsive' src=\"../gallery/images/art28.jpg\"/>     <p>I decided to go to an art school.</p>       <p>This is a project I did during the school. I challenged myself to paint more complicated surface than simple strokes. I thought, what could be more complicated than a moon surface, then this happened. Then I learned, it's nothing but light. If you get the light right, you get the painting right.</p>       <p>Scan the QR code for more story.</p>       <p>Or check out <a href=\"../\">my website</a>!</p>";
+        }
+    </script>
       
    </body>
 </html>

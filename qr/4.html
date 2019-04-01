@@ -22,15 +22,19 @@
       </script>
    </head>
    <body>
-    <div class="container">
-       <p>Here're some of my early works, mostly drawings or simple strokes with paint.</p>
-       <p>I liked creating stories with lines and colors.</p>
-       <img class='img-responsive' src="../gallery/images/art6.jpg"/>
-       <img class='img-responsive' src="../gallery/images/art12.jpg"/>
-       <img class='img-responsive' src="../gallery/images/art13.jpg"/>
-       <p>Scan the QR code for more story.</p>
-       <p>Or check out <a href="../">my website</a>!</p>
-    </div>
-      
+                <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "  <p>这里是我的几幅早期作品，主要是用笔触来表达。</p><img class='img-responsive' src='../gallery/images/art6.jpg'/>       <img class='img-responsive' src='../gallery/images/art12.jpg'/><img class='img-responsive' src='../gallery/images/art13.jpg'/><p>请扫码看更多的故事。</p><p>或者看看我的<a href=\"../\">网站</a>!</p>";
+        } else {
+          document.getElementById('content').innerHTML = "   <p>Here're some of my early works, mostly drawings or simple strokes with paint.</p><p>I liked creating stories with lines and colors.</p><img class='img-responsive' src='../gallery/images/art6.jpg'/>       <img class='img-responsive' src='../gallery/images/art12.jpg'/><img class='img-responsive' src='../gallery/images/art13.jpg'/><p>Scan the QR code for more story.</p><p>Or check out <a href=\"../\">my website</a>!</p>";
+        }
+    </script>
    </body>
 </html>

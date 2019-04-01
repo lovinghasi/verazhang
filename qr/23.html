@@ -22,14 +22,19 @@
       </script>
    </head>
    <body>
-    <div class="container">
-		<br>
-		<br>
-		<br>
-       	<p>Have you ever experienced Déjà vu?</p>
-       	<p>I wish I knew how to paint that.</p>
-       	<p><a href="../">My website</a>!</p>
-    </div>
-      
+    <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "<br><br>    <br>        <p>刚刚有没有一种既视感?</p><p>我要是能画出来就好了。</p>        <p><a href=\"../\">网站</a>!</p>";
+        } else {
+          document.getElementById('content').innerHTML = "<br><br>    <br>        <p>Have you ever experienced Déjà vu?</p><p>I wish I knew how to paint that.</p>        <p><a href=\"../\">My website</a>!</p>";
+        }
+    </script>      
    </body>
 </html>

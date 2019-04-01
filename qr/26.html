@@ -22,13 +22,19 @@
       </script>
    </head>
    <body>
-    <div class="container">
-		<br>
-		<br>
-		<br>
-       	<p>Even the bot has gone to sleep, you may take some rest now.</p>
-       	<p>Check <a href="../">my website</a> for updates!</p>
-    </div>
-      
+    <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "<br><br><br><p>机器人都休息了，你也该歇歇了。</p><p>上<a href=\"../\">网站</a>看更新!</p>";
+        } else {
+          document.getElementById('content').innerHTML = "<br><br><br><p>Even the bot has gone to sleep, you may take some rest now.</p><p>Check <a href=\"../\">my website</a> for updates!</p>";
+        }
+    </script> 
    </body>
 </html>

@@ -22,14 +22,19 @@
       </script>
    </head>
    <body>
-    <div class="container">
-       <img class='img-responsive' src="../gallery/images/art2.jpg"/>
-       <p>This is a matrix.</p>
-       <p>I overheard someone yelling, are you living in a matrix? This line just stayed on my mind. I kept wondering, how do you know the person you meet today, is the same person you met yesterday? How can you be sure that this person is not an alien? How do you know that the space you're in today won't collapse tomorrow?</p>
-       <p>I don't have the answers, but I believe that it's true we live in a matrix. You have your own past and future, and people around you have theirs. However, it's the interaction with these people that sparks and creates memory.</p>
-       <p>Scan the QR code for more story.</p>
-       <p>Or check out <a href="../">my website</a>!</p>
-    </div>
-      
+                        <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "<img class='img-responsive' src=\"../gallery/images/art2.jpg\"/>       <p>这是个矩阵。</p>       <p>我很偶然的听到一个路人大声问，你生活在一个矩阵里吗？这句话一直在我的脑海里回荡。我禁不住想，你怎么知道你今天遇到的这个人，和昨天是同一个人？你怎么知道你面前的这个人不是外星人扮的？你怎么知道你所在的空间明天不会崩塌？</p>       <p>我并不知道答案，但我相信我们生活在一个矩阵中。你有你自己的过去和未来，你身边的人有他们的，是那些相会的瞬间在闪闪发光，并成为永久的记忆。</p>       <p>请扫码看更多的故事。</p>       <p>或者看看我的<a href=\"../\">网站</a>!</p>";
+        } else {
+          document.getElementById('content').innerHTML = " <img class='img-responsive' src=\"../gallery/images/art2.jpg\"/>       <p>This is a matrix.</p>       <p>I overheard someone yelling, are you living in a matrix? This line just stayed on my mind. I kept wondering, how do you know the person you meet today, is the same person you met yesterday? How can you be sure that this person is not an alien? How do you know that the space you're in today won't collapse tomorrow?</p>       <p>I don't have the answers, but I believe that it's true we live in a matrix. You have your own past and future, and people around you have theirs. However, it's the interaction with these people that sparks and creates memory.</p>       <p>Scan the QR code for more story.</p>       <p>Or check out <a href=\"../\">my website</a>!</p>";
+        }
+    </script>
    </body>
 </html>

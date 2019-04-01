@@ -22,13 +22,19 @@
       </script>
    </head>
    <body>
-    <div class="container">
-    	<img class='img-responsive' src="../gallery/images/art40.jpg"/>
-       	<p>Ok, I'll reward your persistence.</p>
-       	<p>This is a piece for a friend. As you can tell from the imagery.</p>
-       	<p>Scan more? I encourage you!</p>
-       	<p>Or check out <a href="../">my website</a>!</p>
-    </div>
-      
+    <header id="header" class="header">
+       <script>
+          createHeaderContents('header', null);
+       </script>
+    </header>
+    <div id="content" class="main container"></div>
+            <script type="text/javascript">
+      var language = localStorage.getItem('verazhang.com?language=');
+        if (language == '中文') {
+          document.getElementById('content').innerHTML = "<img class='img-responsive' src=\"../gallery/images/art40.jpg\"/><p>精神可嘉。</p>        <p>这是讲友谊的一幅画。</p>        <p>我鼓励你继续扫扫码呀！</p>        <p>或者看看我的<a href=\"../\">网站</a>!</p>";
+        } else {
+          document.getElementById('content').innerHTML = "<img class='img-responsive' src=\"../gallery/images/art40.jpg\"/><p>Ok, I'll reward your persistence.</p>        <p>This is a piece for a friend. As you can tell from the imagery.</p>        <p>Scan more? I encourage you!</p>        <p>Or check out <a href=\"../\">my website</a>!</p>";
+        }
+    </script>
    </body>
 </html>
