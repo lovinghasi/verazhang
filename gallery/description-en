@@ -283,14 +283,35 @@
     "title": "A girl with long hair",
     "material": "Acrylic on canvas",
     "description": "Random idea.",
-    "width": "20",
-    "height": "16"
+    "width": "16",
+    "height": "20"
   }, 
     "art42.jpg": {
     "title": "Tears never lie.",
     "material": "Acrylic on canvas",
     "description": "I still rememer all the hard decisions. Just follow your heart.",
-    "width": "20",
-    "height": "16"
+    "width": "16",
+    "height": "20"
+  }, 
+    "art43.jpg": {
+    "title": "True and false.",
+    "material": "Acrylic on canvas",
+    "description": "Without truth, there's no false.",
+    "width": "16",
+    "height": "20"
+  }, 
+    "art44.jpg": {
+    "title": "Beauty and ugliness.",
+    "material": "Acrylic on canvas",
+    "description": "Without beauty, there's no ugliness.",
+    "width": "16",
+    "height": "20"
+  }, 
+    "art45.jpg": {
+    "title": "Good and bad.",
+    "material": "Acrylic on canvas",
+    "description": "Without good, there's no bad.",
+    "width": "16",
+    "height": "20"
   }
 }

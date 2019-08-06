@@ -283,14 +283,35 @@
     "title": "长发女孩",
     "material": "丙烯颜料，画布",
     "description": "胡思乱想。",
-    "width": "45.7",
-    "height": "30.5"
+    "width": "30.5",
+    "height": "45.7"
   }, 
     "art42.jpg": {
     "title": "眼泪永远是真实的",
     "material": "丙烯颜料，画布",
     "description": "我永远也忘不了那些难做的决定。",
-    "width": "45.7",
-    "height": "30.5"
+    "width": "30.5",
+    "height": "45.7"
+  }, 
+    "art43.jpg": {
+    "title": "真与假",
+    "material": "丙烯颜料，画布",
+    "description": "没有真，哪来的假。",
+    "width": "30.5",
+    "height": "45.7"
+  }, 
+    "art44.jpg": {
+    "title": "美与丑",
+    "material": "丙烯颜料，画布",
+    "description": "没有美，哪来的丑。",
+    "width": "30.5",
+    "height": "45.7"
+  }, 
+    "art45.jpg": {
+    "title": "善与恶",
+    "material": "丙烯颜料，画布",
+    "description": "没有善，哪来的恶。",
+    "width": "30.5",
+    "height": "45.7"
   }
 }
