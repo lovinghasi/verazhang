@@ -194,6 +194,23 @@ function createFooterLinks(containerName, links, pageName) {
 
     }
     ul.appendChild(supportLi);
+    // Ads
+    var adsLi = document.createElement('li');
+    var adsText = document.createTextNode("Ads");
+    if (language == "中文") {
+        adsText = document.createTextNode("广告");
+    }
+    if (pageName == "Ads") {
+        adsLi.appendChild(adsText);
+    } else {
+        var adsLink = document.createElement('a');
+        adsLink.appendChild(adsText);
+        adsLink.className = "black-link-underline";
+        adsLink.href = links['ads'];
+        adsLi.appendChild(adsLink);
+
+    }
+    ul.appendChild(adsLi);
     // Privacy Policy
     var privacyLi = document.createElement('li');
     var privacyText = document.createTextNode('Privacy Policy');
