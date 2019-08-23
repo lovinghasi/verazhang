@@ -81,18 +81,18 @@ function createFooterLinks(containerName, links, pageName) {
     var language = localStorage.getItem('verazhang.com?language=');
     // Featured 
     var featuredLi = document.createElement('li');
-    var featuredText = document.createTextNode("Featured");
+    var featuredText = document.createTextNode("Home");
     if (language == "中文") {
-        featuredText = document.createTextNode("主打作品");
+        featuredText = document.createTextNode("主页");
     }
-    if (pageName == "Featured") {
+    if (pageName == "Home") {
         featuredLi.appendChild(featuredText);
     } else {
         var featuredLink = document.createElement('a');
 
         featuredLink.appendChild(featuredText);
         featuredLink.className = "black-link-underline";
-        featuredLink.href = links['featured'];
+        featuredLink.href = links['home'];
         featuredLi.appendChild(featuredLink);
     }
     ul.appendChild(featuredLi);

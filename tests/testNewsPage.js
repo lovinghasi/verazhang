@@ -1,7 +1,7 @@
 import { Selector } from 'testcafe';
 import { Utils } from './util.js'
-fixture `Gallery Page Tests`
-	.page(Utils.stripTrailingSlash(Utils.baseUrl) + "/" + Utils.galleryPath + "/")
+fixture `News Page Tests`
+	.page(Utils.stripTrailingSlash(Utils.baseUrl) + "/" + Utils.blogPath + "/")
 
 test('Home link', async t=>{
     const link = Selector('#footer-links').child(0).child(0);
@@ -9,10 +9,11 @@ test('Home link', async t=>{
     		.expect(Utils.getLocation()).contains(Utils.baseUrl);
 });
 
-test('Blog link', async t=>{
-    const link = Selector('#footer-links').child(0).child(2);
-    await t.click(link)
-    		.expect(Utils.getLocation()).contains(Utils.blogPath + '/');
+test('Gallery link', async t => {
+    const galleryLink = Selector('#footer-links').child(0).child(1);
+
+    await t.click(galleryLink)
+            .expect(Utils.getLocation()).contains(Utils.galleryPath + "/");
 });
 
 test('About link', async t=>{
