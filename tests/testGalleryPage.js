@@ -38,14 +38,8 @@ test('Support link', async t=>{
     		.expect(Utils.getLocation()).contains(Utils.supportPath + "/");
 });
 
-test('Ads link', async t=>{
-    const link = Selector('#footer-links').child(0).child(7);
-    await t.click(link)
-    		.expect(Utils.getLocation()).contains(Utils.adsPath + "/");
-});
-
 test('Privacy link', async t=>{
-    const link = Selector('#footer-links').child(0).child(8);
+    const link = Selector('#footer-links').child(0).child(7);
     await t.click(link)
     		.expect(Utils.getLocation()).contains(Utils.privacyPath);
 });
