@@ -1,6 +1,6 @@
 import { Selector } from 'testcafe';
 import { Utils } from './util.js'
-fixture `Feature Page Tests`
+fixture `Home Page Tests`
 	.page(Utils.baseUrl)
 
 // Footer links
@@ -11,11 +11,11 @@ test('Gallery link', async t => {
     		.expect(Utils.getLocation()).contains(Utils.galleryPath + "/");
 });
 
-test('Blog link', async t => {
+test('News link', async t => {
     const blogLink = Selector('#footer-links').child(0).child(2);
 
     await t.click(blogLink)
-    		.expect(Utils.getLocation()).contains(Utils.blogPath + "/");
+    		.expect(Utils.getLocation()).contains(Utils.newsPath + "/");
 });
 
 test('About link', async t => {

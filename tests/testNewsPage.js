@@ -1,7 +1,7 @@
 import { Selector } from 'testcafe';
 import { Utils } from './util.js'
 fixture `News Page Tests`
-	.page(Utils.stripTrailingSlash(Utils.baseUrl) + "/" + Utils.blogPath + "/")
+	.page(Utils.stripTrailingSlash(Utils.baseUrl) + "/" + Utils.newsPath + "/")
 
 test('Home link', async t=>{
     const link = Selector('#footer-links').child(0).child(0);

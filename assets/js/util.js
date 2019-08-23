@@ -114,17 +114,17 @@ function createFooterLinks(containerName, links, pageName) {
     ul.appendChild(artLi);
     // Blog 
     var blogLi = document.createElement('li');
-    var blogText = document.createTextNode("Blog");
+    var blogText = document.createTextNode("News");
     if (language == "中文") {
-        blogText = document.createTextNode("博客");
+        blogText = document.createTextNode("新闻");
     }
-    if (pageName == "Blog") {
+    if (pageName == "News") {
         blogLi.appendChild(blogText);
     } else {
         var blogLink = document.createElement('a');
         blogLink.appendChild(blogText);
         blogLink.className = "black-link-underline";
-        blogLink.href = links['blog'];
+        blogLink.href = links['news'];
         blogLi.appendChild(blogLink);
     }
     ul.appendChild(blogLi);

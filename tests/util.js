@@ -3,7 +3,7 @@ import { ClientFunction } from 'testcafe';
 var Utils = {
 	baseUrl: "http://0.0.0.0:8000/",
 	galleryPath :"gallery",
-	blogPath : "blog",
+	newsPath : "news",
 	aboutPath : "about",
 	instaWebPath : 'www.instagram.com/vera_z/',
 	emailPath : "mailto:wei.vera.zhang@gmail.com?Subject=From%20www.verazhang.com",

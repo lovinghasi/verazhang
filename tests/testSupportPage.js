@@ -16,10 +16,10 @@ test('Gallery link', async t => {
             .expect(Utils.getLocation()).contains(Utils.galleryPath + "/");
 });
 
-test('Blog link', async t=>{
+test('News link', async t=>{
     const link = Selector('#footer-links').child(0).child(2);
     await t.click(link)
-            .expect(Utils.getLocation()).contains(Utils.blogPath + '/');
+            .expect(Utils.getLocation()).contains(Utils.newsPath + '/');
 });
 
 test('About link', async t=>{
