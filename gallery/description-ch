@@ -313,5 +313,26 @@
     "description": "没有善，哪来的恶。",
     "width": "30.5",
     "height": "45.7"
+  }, 
+    "art46.jpg": {
+    "title": "手模行动 一",
+    "material": "丙烯颜料，画布",
+    "description": "我突然间有了用手作画的想法，于是产生了这幅画。",
+    "width": "46",
+    "height": "61"
+  }, 
+    "art47.jpg": {
+    "title": "手模行动 二",
+    "material": "丙烯颜料，画布",
+    "description": "我突然间有了用手作画的想法，于是产生了这幅画。",
+    "width": "30.5",
+    "height": "45.7"
+  }, 
+    "art48.jpg": {
+    "title": "手模行动 三",
+    "material": "丙烯颜料，画布",
+    "description": "我突然间有了用手作画的想法，于是产生了这幅画。",
+    "width": "30.5",
+    "height": "45.7"
   }
 }

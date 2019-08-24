@@ -313,5 +313,26 @@
     "description": "Without good, there's no bad.",
     "width": "16",
     "height": "20"
+  }, 
+    "art46.jpg": {
+    "title": "The Hand Project No.1",
+    "material": "Acrylic on canvas",
+    "description": "I just had the idea of paiting with my hands, and this came out.",
+    "width": "18",
+    "height": "24"
+  }, 
+    "art47.jpg": {
+    "title": "The Hand Project No.2",
+    "material": "Acrylic on canvas",
+    "description": "I just had the idea of paiting with my hands, and this came out.",
+    "width": "16",
+    "height": "20"
+  }, 
+    "art48.jpg": {
+    "title": "The Hand Project No.3",
+    "material": "Acrylic on canvas",
+    "description": "I just had the idea of paiting with my hands, and this came out.",
+    "width": "16",
+    "height": "20"
   }
 }
