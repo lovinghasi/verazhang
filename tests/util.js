@@ -15,5 +15,18 @@ var Utils = {
 Utils.stripTrailingSlash = function (site){return site.replace(/\/$/, "");};
 Utils.getLocation  = ClientFunction(() => document.location.href.toString());
 Utils.goBack = ClientFunction(() => window.history.back());
+Utils.getRequestResult = ClientFunction(url => {
+        return new Promise(resolve => {
+            var xhr = new XMLHttpRequest();
+
+            xhr.open('GET', url);
+
+            xhr.onload = function () {
+                resolve(xhr.status);
+            };
+
+            xhr.send(null);
+        });
+    });
 
 export { Utils };
