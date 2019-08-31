@@ -98,9 +98,9 @@ function createFooterLinks(containerName, links, pageName) {
     ul.appendChild(featuredLi);
     // Art 
     var artLi = document.createElement('li');
-    var artText = document.createTextNode("Art works");
+    var artText = document.createTextNode("Art");
     if (language == "中文") {
-        artText = document.createTextNode("艺术作品");
+        artText = document.createTextNode("艺术");
     }
     if (pageName == "Art works") {
         artLi.appendChild(artText);
@@ -130,9 +130,9 @@ function createFooterLinks(containerName, links, pageName) {
     ul.appendChild(blogLi);
     // About me
     var aboutMeLi = document.createElement('li');
-    var aboutMeText = document.createTextNode("About me");
+    var aboutMeText = document.createTextNode("About");
     if (language == "中文") {
-        aboutMeText = document.createTextNode("关于我");
+        aboutMeText = document.createTextNode("关于");
     }
     if (pageName == "About me") {
         aboutMeLi.appendChild(aboutMeText);
@@ -179,9 +179,9 @@ function createFooterLinks(containerName, links, pageName) {
     ul.appendChild(emailLi);
     // Support 
     var supportLi = document.createElement('li');
-    var supportText = document.createTextNode("Support me");
+    var supportText = document.createTextNode("Support");
     if (language == "中文") {
-        supportText = document.createTextNode("支持我");
+        supportText = document.createTextNode("支持");
     }
     if (pageName == "Support") {
         supportLi.appendChild(supportText);
