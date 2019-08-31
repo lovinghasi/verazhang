@@ -4,335 +4,463 @@
     "material": "Color pencil on paper",
     "description": "I drew this on a rainy night, listening to music on my phone, wearing the same outfit. I imagined myself being my own friend, and this came out of the pencil.",
     "width": "11",
-    "height": "16"
+    "height": "16",
+    "status": "Sold"
   },
   "art2.jpg": {
     "title": "Space and time",
     "material": "Mixed materials on paper",
     "description": "I ask myself a question, how do you know that the person you see today, is the same person you met yesterday. I ask myself a question, how to you know the city you live in, didn't switch to a parallel universe over night.",
     "width": "11",
-    "height": "16"
+    "height": "16",
+    "status": "Sold"
   },
   "art3.jpg": {
     "title": "Portrait 1",
     "material": "Mixed materials on paper",
     "description": "None",
     "width": "11",
-    "height": "16"
+    "height": "16",
+    "status": "Sold"
   },
   "art4.jpg": {
     "title": "Portrait 2",
     "material": "Mixed materials on paper",
     "description": "None",
     "width": "11",
-    "height": "16"
+    "height": "16",
+    "status": "Sold"
   },
   "art5.jpg": {
     "title": "Portrait 3",
     "material": "Mixed materials on paper",
     "description": "None",
     "width": "11",
-    "height": "16"
+    "height": "16",
+    "status": "Sold"
   },
   "art6.jpg": {
     "title": "Every path is the same",
     "material": "Mixed materials on paper",
     "description": "All road leads to the same end, it's the journey that's the most important.",
     "width": "9.4",
-    "height": "11.6"
+    "height": "11.6",
+    "status": "Sold"
   },
   "art7.jpg": {
     "title": "Strawberry Monster",
     "material": "Mixed materials on paper",
     "description": "None",
     "width": "6.9",
-    "height": "9.2"
+    "height": "9.2",
+    "status": "Sold"
   },
   "art8.jpg": {
     "title": "Untitled",
     "material": "Pen on paper",
     "description": "None",
     "width": "9.4",
-    "height": "11.6"
+    "height": "11.6",
+    "status": "Sold"
   },
   "art9.jpg": {
     "title": "Expression of depression",
     "material": "Pen on paper",
     "description": "This one is drawn with my eyes closed, music on. I let what's on my mind flow out from the pen. This is the start of my painting journey.",
     "width": "9",
-    "height": "12"
+    "height": "12",
+    "status": "Sold"
   },
   "art10.jpg": {
     "title": "Light through the clouds",
     "material": "Mixed materials on paper",
     "description": "None",
     "width": "12",
-    "height": "9"
+    "height": "9",
+    "status": "Sold"
   },
   "art11.jpg": {
     "title": "Untitled",
     "material": "Acrylic on paper",
     "description": "None",
     "width": "9",
-    "height": "12"
+    "height": "12",
+    "status": "Selling"
   },
   "art12.jpg": {
     "title": "A bit blue",
     "material": "Acrylic on paper",
     "description": "None",
     "width": "9",
-    "height": "12"
+    "height": "12",
+    "status": "Sold"
   },
   "art13.jpg": {
     "title": "Why so serious?",
     "material": "Acrylic on paper",
     "description": "This is inspired by the song Chicken Attack.",
     "width": "9",
-    "height": "12"
+    "height": "12",
+    "status": "Sold"
   },
   "art14.jpg": {
     "title": "Coffee works",
     "material": "Acrylic on paper",
     "description": "None",
     "width": "11",
-    "height": "16"
+    "height": "16",
+    "status": "Sold"
   },
   "art15.jpg": {
     "title": "Self Portrait",
     "material": "Acrylic on paper",
     "description": "None",
     "width": "12",
-    "height": "18"
+    "height": "18",
+    "status": "Selling"
   },
   "art16.jpg": {
     "title": "Lady",
     "material": "Acrylic on paper",
     "description": "None",
     "width": "12",
-    "height": "18"
+    "height": "18",
+    "status": "Sold"
   },
   "art17.jpg": {
     "title": "The caveman",
     "material": "Acrylic on canvas",
     "description": "This one paints a man who has never lived outside a cave, the only friends he has are from the shades of a real world.",
     "width": "20",
-    "height": "16"
+    "height": "16",
+    "status": "Sold"
   },
   "art18.jpg": {
     "title": "Flowers",
     "material": "Acrylic on canvas",
     "description": "None",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Selling"
   },
   "art19.jpg": {
     "title": "Ballerina",
     "material": "Acrylic on canvas",
     "description": "None",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Selling"
   },
   "art20.jpg": {
     "title": "Dream",
     "material": "Acrylic on canvas",
     "description": "Painted with eyes closed.",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Sold"
   },
   "art21.jpg": {
     "title": "Bipolar",
     "material": "Acrylic on canvas",
     "description": "None",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Selling"
   },
   "art22.jpg": {
     "title": "Model sitting on a sofa",
     "material": "Pastel on paper",
     "description": "None",
     "width": "24",
-    "height": "18"
+    "height": "18",
+    "status": "Sold"
   },
   "art23.jpg": {
     "title": "Cubes",
     "material": "Acrylic on canvas",
     "description": "None",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Selling"
   },
   "art24.jpg": {
     "title": "Self portrait with a guitar",
     "material": "Acrylic on canvas",
     "description": "I never learned how to play guitar, but I can paint. It's like if I paint it well, I can really play.",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Selling"
   },
   "art25.jpg": {
     "title": "Freedom",
     "material": "Acrylic on canvas",
     "description": "I painted a soul breaking out of a Skinner Box.",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Selling"
   },
   "art26.jpg": {
     "title": "Mr. Bean",
     "material": "Acrylic on canvas",
     "description": "None",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Sold"
   },
   "art27.jpg": {
     "title": "Blush",
     "material": "Acrylic on canvas",
     "description": "Have you seen someone, and can't help to blush? I believe this is the color.",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Sold"
   },
   "art28.jpg": {
     "title": "Dancing on the moon",
     "material": "Acrylic on canvas",
     "description": "I wish I could dance on the moon, free and forever.",
     "width": "20",
-    "height": "16"
+    "height": "16",
+    "status": "Selling"
   },
     "art29.jpg": {
     "title": "Who's in the paiting?",
     "material": "Acrylic on canvas",
     "description": "It's a question to you too, are you in someone else's painting?",
     "width": "20",
-    "height": "16"
+    "height": "16",
+    "status": "Selling"
   },
     "art30.jpg": {
     "title": "I miss you already.",
     "material": "Acrylic on canvas",
     "description": "You close your eyes when you're kissing.",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Sold"
   },
     "art31.jpg": {
     "title": "Four colors, four seasons.",
     "material": "Acrylic on canvas",
     "description": "I started with four colors, but the combination showed some magic, it's so warm, so imaginative, and I can't stop looking at it.",
     "width": "20",
-    "height": "16"
+    "height": "16",
+    "status": "Selling"
   }, 
     "art32.jpg": {
     "title": "Who's in the paiting?2",
     "material": "Acrylic on canvas",
     "description": "It's a question to you too, are you in someone else's painting?",
     "width": "48",
-    "height": "36"
+    "height": "36",
+    "status": "Selling"
   }, 
     "art33.jpg": {
     "title": "Self Portrait",
     "material": "Acrylic on canvas",
     "description": "Too many things on the brain, put on some music and let them dance.",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Sold"
   }, 
     "art34.jpg": {
     "title": "A woman with a flower hat.",
     "material": "Acrylic on canvas",
     "description": "I wish Spring last longer. And the flowers bloom longer.",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Selling"
   }, 
     "art35.jpg": {
     "title": "Chinese doll.",
     "material": "Acrylic on canvas",
     "description": "I saw these chinese characters in a restaurant the other day. Thought it would be nice to put on the canvas. So I did.",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Selling"
   }, 
     "art36.jpg": {
     "title": "A woman with a bird.",
     "material": "Acrylic on canvas",
     "description": "This is about a friend, who just have this nice jacket matching with a nice shirt. I wish she had a bird friend. Then they can talk at home.",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Sold"
   }, 
     "art37.jpg": {
     "title": "A girl with a yellow shirt.",
     "material": "Acrylic on canvas",
     "description": "This is about a friend.",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Selling"
   }, 
     "art38.jpg": {
     "title": "A poem, a connection.",
     "material": "Acrylic on canvas",
     "description": "I told this chinese poem to all my American friends, they all laughed after understanding it, it is wisdom from an acient man.",
     "width": "unknown",
-    "height": "unknown"
+    "height": "unknown",
+    "status": "Sold"
   }, 
     "art39.jpg": {
     "title": "A dancing group.",
     "material": "Acrylic on canvas",
     "description": "I was trying to model off an old work, then discovered something new.",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Selling"
   }, 
     "art40.jpg": {
     "title": "Friends forever.",
     "material": "Acrylic on canvas",
     "description": "For a friend.",
     "width": "20",
-    "height": "16"
+    "height": "16",
+    "status": "Sold"
   }, 
     "art41.jpg": {
     "title": "A girl with long hair",
     "material": "Acrylic on canvas",
     "description": "Random idea.",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Selling"
   }, 
     "art42.jpg": {
     "title": "Tears never lie.",
     "material": "Acrylic on canvas",
     "description": "I still rememer all the hard decisions. Just follow your heart.",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Selling"
   }, 
     "art43.jpg": {
     "title": "True and false.",
     "material": "Acrylic on canvas",
     "description": "Without truth, there's no false.",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Selling"
   }, 
     "art44.jpg": {
     "title": "Beauty and ugliness.",
     "material": "Acrylic on canvas",
     "description": "Without beauty, there's no ugliness.",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Selling"
   }, 
     "art45.jpg": {
     "title": "Good and bad.",
     "material": "Acrylic on canvas",
     "description": "Without good, there's no bad.",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Selling"
   }, 
     "art46.jpg": {
     "title": "The Hand Project No.1",
     "material": "Acrylic on canvas",
     "description": "I just had the idea of paiting with my hands, and this came out.",
     "width": "18",
-    "height": "24"
+    "height": "24",
+    "status": "Selling"
   }, 
     "art47.jpg": {
     "title": "The Hand Project No.2",
     "material": "Acrylic on canvas",
     "description": "I just had the idea of paiting with my hands, and this came out.",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Selling"
   }, 
     "art48.jpg": {
     "title": "The Hand Project No.3",
     "material": "Acrylic on canvas",
     "description": "I just had the idea of paiting with my hands, and this came out.",
     "width": "16",
-    "height": "20"
+    "height": "20",
+    "status": "Selling"
+  }, 
+    "art49.jpg": {
+    "title": "The window",
+    "material": "Acrylic on canvas",
+    "description": "When I was a child, I was always locked at home since my parents were busy working. My only contact of the outside world was through the big window in the apartments' kitchen.",
+    "width": "24",
+    "height": "30",
+    "status": "Selling"
+  }, 
+    "art50.jpg": {
+    "title": "The hand project original",
+    "material": "Acrylic on canvas",
+    "description": "I just experimented painting with my hands for the first time.",
+    "width": "20",
+    "height": "16",
+    "status": "Selling"
+  }, 
+    "art51.jpg": {
+    "title": "The Eric",
+    "material": "Acrylic on canvas",
+    "description": "Painting a friend.",
+    "width": "16",
+    "height": "20",
+    "status": "Sold"
+  }, 
+    "art52.jpg": {
+    "title": "The eye of the sky",
+    "material": "Acrylic on canvas",
+    "description": "When the light goes through the sky.",
+    "width": "16",
+    "height": "20",
+    "status": "Selling"
+  }, 
+    "art53.jpg": {
+    "title": "Still life - flowers",
+    "material": "Acrylic on canvas",
+    "description": "Purple colors, purple mood.",
+    "width": "16",
+    "height": "20",
+    "status": "Selling"
+  }, 
+    "art54.jpg": {
+    "title": "Zebra without strips.",
+    "material": "Acrylic on canvas",
+    "description": "No comment.",
+    "width": "20",
+    "height": "16",
+    "status": "Selling"
+  }, 
+    "art55.jpg": {
+    "title": "Zebra, zebra.",
+    "material": "Acrylic on canvas",
+    "description": "No comment.",
+    "width": "20",
+    "height": "16",
+    "status": "Selling"
+  }, 
+    "art56.jpg": {
+    "title": "The textile",
+    "material": "Acrylic on canvas",
+    "description": "Inspired by a textitle found in Peru, made couple of thousands of years ago, currently collected by Brooklyn Museum, New York.",
+    "width": "16",
+    "height": "20",
+    "status": "Selling"
+  }, 
+    "art57.jpg": {
+    "title": "The Chinese lady",
+    "material": "Acrylic on canvas",
+    "description": "Inspired by Wen Liu, a Chinese model.",
+    "width": "16",
+    "height": "20",
+    "status": "Selling"
+  }, 
+    "art58.jpg": {
+    "title": "The sleeping painter.",
+    "material": "Acrylic on canvas",
+    "description": "I saw him on the subway, just felt how hard a life is to an artist.",
+    "width": "16",
+    "height": "20",
+    "status": "Selling"
   }
 }
