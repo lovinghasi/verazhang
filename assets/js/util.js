@@ -174,7 +174,7 @@ function createFooterLinks(containerName, links, pageName) {
     }
     emailLink.appendChild(emailText);
     emailLink.className = "black-link-underline";
-    emailLink.href = "mailto:wei.vera.zhang@gmail.com?Subject=From%20www.verazhang.com";
+    emailLink.href = "mailto:verazhangsite@gmail.com?Subject=From%20www.verazhang.com";
     emailLi.appendChild(emailLink);
     ul.appendChild(emailLi);
     // Support 
