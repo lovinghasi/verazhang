@@ -462,5 +462,45 @@
     "width": "30.5",
     "height": "45.7",
     "status": "待售"
+  }, 
+    "art59.jpg": {
+    "title": "手模行动 四",
+    "material": "丙烯颜料，画布",
+    "description": "阴与阳覆盖下的黄色抽象。",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art60.jpg": {
+    "title": "手模行动 五",
+    "material": "丙烯颜料，画布",
+    "description": "生活，总是多姿多彩。",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art61.jpg": {
+    "title": "手模行动 六",
+    "material": "丙烯颜料，画布",
+    "description": "风中的人。",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art62.jpg": {
+    "title": "手模行动 七",
+    "material": "丙烯颜料，画布",
+    "description": "睡着的女孩。",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art63.jpg": {
+    "title": "手模行动 八",
+    "material": "丙烯颜料，画布",
+    "description": "吻是对这个世界的祝福",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
   }
 }

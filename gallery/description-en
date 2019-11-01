@@ -462,5 +462,45 @@
     "width": "16",
     "height": "20",
     "status": "Selling"
+  }, 
+    "art59.jpg": {
+    "title": "The Hand Project No.4",
+    "material": "Acrylic on canvas",
+    "description": "Yellow abstraction with Yin and Yang",
+    "width": "16",
+    "height": "20",
+    "status": "Selling"
+  }, 
+    "art60.jpg": {
+    "title": "The Hand Project No.5",
+    "material": "Acrylic on canvas",
+    "description": "Life, always vivid.",
+    "width": "16",
+    "height": "20",
+    "status": "Selling"
+  }, 
+    "art61.jpg": {
+    "title": "The Hand Project No.6",
+    "material": "Acrylic on canvas",
+    "description": "Man in the wind.",
+    "width": "16",
+    "height": "20",
+    "status": "Selling"
+  }, 
+    "art62.jpg": {
+    "title": "The Hand Project No.7",
+    "material": "Acrylic on canvas",
+    "description": "Sleeping girl.",
+    "width": "16",
+    "height": "20",
+    "status": "Selling"
+  }, 
+    "art63.jpg": {
+    "title": "The Hand Project No.8",
+    "material": "Acrylic on canvas",
+    "description": "All the kisses are blessings to the world.",
+    "width": "16",
+    "height": "20",
+    "status": "Selling"
   }
 }

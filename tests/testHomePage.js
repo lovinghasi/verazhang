@@ -82,8 +82,63 @@ test('Right and left arrows', async t=>{
 			.wait( 1000 );
 	activeItem = Selector('.active');
 	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
+	await t.expect(currentImageUrl).contains('gallery/images/art59.jpg');
+	right = Selector('.right');
+	await t.click(right)
+			.wait( 1000 );
+	activeItem = Selector('.active');
+	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
+	await t.expect(currentImageUrl).contains('gallery/images/art60.jpg');
+	right = Selector('.right');
+	await t.click(right)
+			.wait( 1000 );
+	activeItem = Selector('.active');
+	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
+	await t.expect(currentImageUrl).contains('gallery/images/art61.jpg');
+	right = Selector('.right');
+	await t.click(right)
+			.wait( 1000 );
+	activeItem = Selector('.active');
+	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
+	await t.expect(currentImageUrl).contains('gallery/images/art62.jpg');
+	right = Selector('.right');
+	await t.click(right)
+			.wait( 1000 );
+	activeItem = Selector('.active');
+	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
+	await t.expect(currentImageUrl).contains('gallery/images/art63.jpg');
+	right = Selector('.right');
+	await t.click(right)
+			.wait( 1000 );
+	activeItem = Selector('.active');
+	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
 	await t.expect(currentImageUrl).contains('gallery/images/art46.jpg');
 	var left = Selector('.left');
+	await t.click(left).wait(1000);
+	activeItem = Selector('.active');
+	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
+	await t.expect(currentImageUrl).contains('gallery/images/art63.jpg');
+	left = Selector('.left')
+	await t.click(left).wait(1000);
+	activeItem = Selector('.active');
+	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
+	await t.expect(currentImageUrl).contains('gallery/images/art62.jpg');
+	left = Selector('.left')
+	await t.click(left).wait(1000);
+	activeItem = Selector('.active');
+	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
+	await t.expect(currentImageUrl).contains('gallery/images/art61.jpg');
+	left = Selector('.left')
+	await t.click(left).wait(1000);
+	activeItem = Selector('.active');
+	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
+	await t.expect(currentImageUrl).contains('gallery/images/art60.jpg');
+	left = Selector('.left')
+	await t.click(left).wait(1000);
+	activeItem = Selector('.active');
+	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
+	await t.expect(currentImageUrl).contains('gallery/images/art59.jpg');
+	left = Selector('.left')
 	await t.click(left).wait(1000);
 	activeItem = Selector('.active');
 	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
