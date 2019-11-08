@@ -502,5 +502,21 @@
     "width": "16",
     "height": "20",
     "status": "Selling"
+  }, 
+    "art64.jpg": {
+    "title": "White canvas",
+    "material": "Acrylic on canvas",
+    "description": "When you hold the brush but do not know what to paint.",
+    "width": "24",
+    "height": "30",
+    "status": "Selling"
+  }, 
+    "art65.jpg": {
+    "title": "Lotus and others",
+    "material": "Acrylic on canvas",
+    "description": "My childhood memory.",
+    "width": "24",
+    "height": "30",
+    "status": "Selling"
   }
 }

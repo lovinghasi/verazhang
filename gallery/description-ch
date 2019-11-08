@@ -502,5 +502,21 @@
     "width": "30.5",
     "height": "45.7",
     "status": "待售"
+  }, 
+    "art64.jpg": {
+    "title": "空白画板",
+    "material": "丙烯颜料，画布",
+    "description": "拿着画笔却无从下笔，大脑一片空白。",
+    "width": "61",
+    "height": "76.2",
+    "status": "待售"
+  }, 
+    "art65.jpg": {
+    "title": "荷塘日色",
+    "material": "丙烯颜料，画布",
+    "description": "童年的会议。",
+    "width": "61",
+    "height": "76.2",
+    "status": "待售"
   }
 }
