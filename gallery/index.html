@@ -126,30 +126,46 @@
             }
             readTextFile(text, function(param){
               var json = JSON.parse(param);
+              // add 2019 text
               var p2019 = document.createElement('p');
               p2019.classList.add("gallery-p-center-bold");
               var text2019 = document.createTextNode("2019");
               p2019.appendChild(text2019);
               document.getElementById('content').appendChild(p2019);
+              // add divider
+              document.getElementById('content').appendChild(document.createElement('hr'));
+              // add The Childhood text
               var pWindow = document.createElement('p');
               pWindow.classList.add("gallery-p-center");
               var textWindow = document.createTextNode("The Childhood 童趣");
               pWindow.appendChild(textWindow);
               document.getElementById('content').appendChild(pWindow);
+              // add The Childhood images
               addImages('content', ["art49.jpg","art64.jpg","art65.jpg", "art66.jpg"], json, 3);
+              // add divider
+              document.getElementById('content').appendChild(document.createElement('hr'));
+              // add Philosophy text
               var pPhilosophy = document.createElement('p');
               pPhilosophy.classList.add("gallery-p-center");
               var textPhilosophy = document.createTextNode("Philosophy 哲");
               pPhilosophy.appendChild(textPhilosophy);
               document.getElementById('content').appendChild(pPhilosophy);
+              // add Philosophy images
               addImages('content', ["art43.jpg","art44.jpg","art45.jpg"],
                           json, 3);
+              // add divider
+              document.getElementById('content').appendChild(document.createElement('hr'));
+              // add Hue text
               var pHue = document.createElement('p');
               pHue.classList.add("gallery-p-center");
               var textHue = document.createTextNode("Hue 色调");
               pHue.appendChild(textHue);
               document.getElementById('content').appendChild(pHue);
+              // add Hue images
               addImages('content', ["art33.jpg", "art34.jpg", "art35.jpg","art36.jpg", "art37.jpg", "art41.jpg", "art42.jpg"], json, 3);
+              // add divider
+              document.getElementById('content').appendChild(document.createElement('hr'));
+              // add more link
               var linkMoreFor2019 = document.createElement('a');
               var textMoreFor2019 = document.createTextNode("More works for 2019");
               linkMoreFor2019.appendChild(textMoreFor2019);
@@ -161,32 +177,50 @@
               divMoreFor2019.id = "moreWorksFor2019";
               document.getElementById('content').appendChild(divMoreFor2019);
               addImages('moreWorksFor2019', ["art58.jpg","art57.jpg","art56.jpg","art55.jpg","art54.jpg","art53.jpg","art52.jpg","art51.jpg","art50.jpg","art38.jpg","art39.jpg", "art40.jpg"], json, 3);
+              // add divider
+              document.getElementById('content').appendChild(document.createElement('hr'));
+              // add 2018 text
               var p2018 = document.createElement('p');
               p2018.classList.add("gallery-p-center-bold");
               var text2018 = document.createTextNode("2018");
               p2018.appendChild(text2018);
               document.getElementById('content').appendChild(p2018);
+              // add divider
+              document.getElementById('content').appendChild(document.createElement('hr'));
+              // add Painting text
               var pPainting = document.createElement('p');
               pPainting.classList.add("gallery-p-center");
               var textPainting = document.createTextNode("Who's in the painting? 谁在画里？");
               pPainting.appendChild(textPainting);
               document.getElementById('content').appendChild(pPainting);
+              // add Painting images
               addImages('content', ["art32.jpg"],
                       json, 3);
-               var pKiss = document.createElement('p');
+              // add divider
+              document.getElementById('content').appendChild(document.createElement('hr'));
+              // add Kiss text
+              var pKiss = document.createElement('p');
               pKiss.classList.add("gallery-p-center");
               var textKiss = document.createTextNode("A kiss. 吻");
               pKiss.appendChild(textKiss);
               document.getElementById('content').appendChild(pKiss);
+              // add Kiss image
               addImages('content', ["art30.jpg"],
                       json, 3);
+              // add divider
+              document.getElementById('content').appendChild(document.createElement('hr'));
+              // add Selfie text
                var pSelfie = document.createElement('p');
               pSelfie.classList.add("gallery-p-center");
               var textSelfie = document.createTextNode("Self Portrait. 自画像");
               pSelfie.appendChild(textSelfie);
               document.getElementById('content').appendChild(pSelfie);
+              // add Selfie image
               addImages('content', ["art1.jpg"],
                       json, 3);
+              // add divider
+              document.getElementById('content').appendChild(document.createElement('hr'));
+              // add more link
               var linkMoreFor2018 = document.createElement('a');
               var textMoreFor2018 = document.createTextNode("More works for 2018");
               linkMoreFor2018.appendChild(textMoreFor2018);
@@ -206,7 +240,9 @@
                      "art2.jpg", "art3.jpg", 
                      "art4.jpg", "art5.jpg"],
                       json, 3);
-              document.getElementById("content").appendChild(document.createElement('div'));
+              // add divider
+              document.getElementById('content').appendChild(document.createElement('hr'));
+              // add more link
               var linkMoreFor2017 = document.createElement('a');
               var textMoreFor2017 = document.createTextNode("Works for 2017");
               linkMoreFor2017.appendChild(textMoreFor2017);
@@ -221,6 +257,9 @@
                    "art8.jpg", "art7.jpg",  "art6.jpg","art12.jpg", "art13.jpg"],
                     json, 3);
               document.getElementById("content").appendChild(document.createElement('div'));
+              // add divider
+              document.getElementById('content').appendChild(document.createElement('hr'));
+              // add more link
               var linkMoreFor2016 = document.createElement('a');
               var textMoreFor2016 = document.createTextNode("Works for 2016");
               linkMoreFor2016.appendChild(textMoreFor2016);
