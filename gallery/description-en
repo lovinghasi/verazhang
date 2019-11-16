@@ -85,7 +85,7 @@
     "description": "None",
     "width": "9",
     "height": "12",
-    "status": "Selling"
+    "status": "Available"
   },
   "art12.jpg": {
     "title": "A bit blue",
@@ -117,7 +117,7 @@
     "description": "None",
     "width": "12",
     "height": "18",
-    "status": "Selling"
+    "status": "Available"
   },
   "art16.jpg": {
     "title": "Lady",
@@ -141,7 +141,7 @@
     "description": "None",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Sold"
   },
   "art19.jpg": {
     "title": "Ballerina",
@@ -149,7 +149,7 @@
     "description": "None",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   },
   "art20.jpg": {
     "title": "Dream",
@@ -165,7 +165,7 @@
     "description": "None",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   },
   "art22.jpg": {
     "title": "Model sitting on a sofa",
@@ -181,7 +181,7 @@
     "description": "None",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   },
   "art24.jpg": {
     "title": "Self portrait with a guitar",
@@ -189,7 +189,7 @@
     "description": "I never learned how to play guitar, but I can paint. It's like if I paint it well, I can really play.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   },
   "art25.jpg": {
     "title": "Freedom",
@@ -197,7 +197,7 @@
     "description": "I painted a soul breaking out of a Skinner Box.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   },
   "art26.jpg": {
     "title": "Mr. Bean",
@@ -221,7 +221,7 @@
     "description": "I wish I could dance on the moon, free and forever.",
     "width": "20",
     "height": "16",
-    "status": "Selling"
+    "status": "Available"
   },
     "art29.jpg": {
     "title": "Who's in the paiting?",
@@ -229,7 +229,7 @@
     "description": "It's a question to you too, are you in someone else's painting?",
     "width": "20",
     "height": "16",
-    "status": "Selling"
+    "status": "Available"
   },
     "art30.jpg": {
     "title": "I miss you already.",
@@ -245,7 +245,7 @@
     "description": "I started with four colors, but the combination showed some magic, it's so warm, so imaginative, and I can't stop looking at it.",
     "width": "20",
     "height": "16",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art32.jpg": {
     "title": "Who's in the paiting?2",
@@ -253,7 +253,7 @@
     "description": "It's a question to you too, are you in someone else's painting?",
     "width": "48",
     "height": "36",
-    "status": "Selling"
+    "status": "Sold"
   }, 
     "art33.jpg": {
     "title": "Self Portrait",
@@ -269,7 +269,7 @@
     "description": "I wish Spring last longer. And the flowers bloom longer.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art35.jpg": {
     "title": "Chinese doll.",
@@ -277,7 +277,7 @@
     "description": "I saw these chinese characters in a restaurant the other day. Thought it would be nice to put on the canvas. So I did.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art36.jpg": {
     "title": "A woman with a bird.",
@@ -293,7 +293,7 @@
     "description": "This is about a friend.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art38.jpg": {
     "title": "A poem, a connection.",
@@ -309,7 +309,7 @@
     "description": "I was trying to model off an old work, then discovered something new.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art40.jpg": {
     "title": "Friends forever.",
@@ -325,7 +325,7 @@
     "description": "Random idea.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art42.jpg": {
     "title": "Tears never lie.",
@@ -333,7 +333,7 @@
     "description": "I still rememer all the hard decisions. Just follow your heart.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art43.jpg": {
     "title": "True and false.",
@@ -341,7 +341,7 @@
     "description": "Without truth, there's no false.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art44.jpg": {
     "title": "Beauty and ugliness.",
@@ -349,7 +349,7 @@
     "description": "Without beauty, there's no ugliness.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art45.jpg": {
     "title": "Good and bad.",
@@ -357,7 +357,7 @@
     "description": "Without good, there's no bad.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art46.jpg": {
     "title": "The Hand Project No.1",
@@ -365,7 +365,7 @@
     "description": "I just had the idea of paiting with my hands, and this came out.",
     "width": "18",
     "height": "24",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art47.jpg": {
     "title": "The Hand Project No.2",
@@ -373,7 +373,7 @@
     "description": "I just had the idea of paiting with my hands, and this came out.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art48.jpg": {
     "title": "The Hand Project No.3",
@@ -381,7 +381,7 @@
     "description": "I just had the idea of paiting with my hands, and this came out.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art49.jpg": {
     "title": "The window",
@@ -389,7 +389,7 @@
     "description": "When I was a child, I was always locked at home since my parents were busy working. My only contact of the outside world was through the big window in the apartments' kitchen.",
     "width": "24",
     "height": "30",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art50.jpg": {
     "title": "The hand project original",
@@ -397,7 +397,7 @@
     "description": "I just experimented painting with my hands for the first time.",
     "width": "20",
     "height": "16",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art51.jpg": {
     "title": "The Eric",
@@ -413,7 +413,7 @@
     "description": "When the light goes through the sky.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art53.jpg": {
     "title": "Still life - flowers",
@@ -421,7 +421,7 @@
     "description": "Purple colors, purple mood.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art54.jpg": {
     "title": "Zebra without strips.",
@@ -429,7 +429,7 @@
     "description": "No comment.",
     "width": "20",
     "height": "16",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art55.jpg": {
     "title": "Zebra, zebra.",
@@ -437,7 +437,7 @@
     "description": "No comment.",
     "width": "20",
     "height": "16",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art56.jpg": {
     "title": "The textile",
@@ -445,7 +445,7 @@
     "description": "Inspired by a textitle found in Peru, made couple of thousands of years ago, currently collected by Brooklyn Museum, New York.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art57.jpg": {
     "title": "The Chinese lady",
@@ -453,7 +453,7 @@
     "description": "Inspired by Wen Liu, a Chinese model.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art58.jpg": {
     "title": "The sleeping painter.",
@@ -461,7 +461,7 @@
     "description": "I saw him on the subway, just felt how hard a life is to an artist.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art59.jpg": {
     "title": "The Hand Project No.4",
@@ -469,7 +469,7 @@
     "description": "Yellow abstraction with Yin and Yang",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art60.jpg": {
     "title": "The Hand Project No.5",
@@ -477,7 +477,7 @@
     "description": "Life, always vivid.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art61.jpg": {
     "title": "The Hand Project No.6",
@@ -485,7 +485,7 @@
     "description": "Man in the wind.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art62.jpg": {
     "title": "The Hand Project No.7",
@@ -493,7 +493,7 @@
     "description": "Sleeping girl.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art63.jpg": {
     "title": "The Hand Project No.8",
@@ -501,7 +501,7 @@
     "description": "All the kisses are blessings to the world.",
     "width": "16",
     "height": "20",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art64.jpg": {
     "title": "White canvas",
@@ -509,7 +509,7 @@
     "description": "When you hold the brush but do not know what to paint.",
     "width": "24",
     "height": "30",
-    "status": "Selling"
+    "status": "Available"
   }, 
     "art65.jpg": {
     "title": "Lotus and others",
@@ -517,6 +517,14 @@
     "description": "My childhood memory.",
     "width": "24",
     "height": "30",
-    "status": "Selling"
+    "status": "Available"
+  }, 
+    "art66.jpg": {
+    "title": "Spring fireworks",
+    "material": "Acrylic on canvas",
+    "description": "My childhood memory.",
+    "width": "24",
+    "height": "30",
+    "status": "Available"
   }
 }

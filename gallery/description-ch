@@ -141,7 +141,7 @@
     "description": "无",
     "width": "30.5",
     "height": "45.7",
-    "status": "待售"
+    "status": "已售"
   },
   "art19.jpg": {
     "title": "芭蕾舞娘",
@@ -253,7 +253,7 @@
     "description": "这也是在问你，你是在某些人的画里吗？",
     "width": "121.9",
     "height": "91.4",
-    "status": "待售"
+    "status": "已售"
   }, 
     "art33.jpg": {
     "title": "自画像",
@@ -514,7 +514,15 @@
     "art65.jpg": {
     "title": "荷塘日色",
     "material": "丙烯颜料，画布",
-    "description": "童年的会议。",
+    "description": "童年的回忆。",
+    "width": "61",
+    "height": "76.2",
+    "status": "待售"
+  }, 
+    "art66.jpg": {
+    "title": "假日烟火",
+    "material": "丙烯颜料，画布",
+    "description": "童年的回忆。",
     "width": "61",
     "height": "76.2",
     "status": "待售"
