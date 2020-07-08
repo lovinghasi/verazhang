@@ -36,11 +36,19 @@
       </header>
       <main class="main container">
          <div class="outer">
+          <br/>
+          <p style="text-align: center;"><a href="https://www.saatchiart.com/vera_zhang" id="buyLink"></a></p>
             <div class="inner" id="content" align="center">
             </div>
          </div>
          <script type="text/javascript">
             var language = localStorage.getItem('verazhang.com?language=');
+            if (language == '中文') {
+              buyLinkText = document.createTextNode("去Saatchi Art网站购买");
+            } else {
+              buyLinkText = document.createTextNode("Buy from Saatchi Art");
+            }
+            document.getElementById('buyLink').appendChild(buyLinkText  )
             function addImages(contentHolderId, order, description, colunm){
               var row = Math.floor(order.length / colunm);
               for (var i = 0; i < row; i++) {
@@ -126,6 +134,50 @@
             }
             readTextFile(text, function(param){
               var json = JSON.parse(param);
+              // add link to Saatchi Art
+              // add 2020 text
+              var p2020 = document.createElement('p');
+              p2020.classList.add("gallery-p-center-bold");
+              var text2020 = document.createTextNode("2020");
+              p2020.appendChild(text2020);
+              document.getElementById('content').appendChild(p2020);
+              // add divider
+              document.getElementById('content').appendChild(document.createElement('hr'));
+              // add The Corner text
+              var pCorner = document.createElement('p');
+              pCorner.classList.add("gallery-p-center");
+              var textCorner = document.createTextNode("The Corner 公寓一角");
+              pCorner.appendChild(textCorner);
+              document.getElementById('content').appendChild(pCorner);
+              // add The Childhood images
+              addImages('content', ["art67.jpg","art68.jpg"], json, 3);
+              // add divider
+              document.getElementById('content').appendChild(document.createElement('hr'));
+              // add The Abstraction text
+              var pAbstraction = document.createElement('p');
+              pAbstraction.classList.add("gallery-p-center");
+              var textAb = document.createTextNode("The Abstraction 抽象系列");
+              pAbstraction.appendChild(textAb);
+              document.getElementById('content').appendChild(pAbstraction);
+              // add The Childhood images
+              addImages('content', ["art71.jpg","art73.jpg","art74.jpg","art84.jpg","art85.jpg"], json, 3);
+              // add divider
+              document.getElementById('content').appendChild(document.createElement('hr'));
+              // add more link
+              var linkMoreFor2020 = document.createElement('a');
+              var textMoreFor2020 = document.createTextNode("More works for 2020");
+              linkMoreFor2020.appendChild(textMoreFor2020);
+              linkMoreFor2020.href = "#moreWorksFor2020";
+              linkMoreFor2020.setAttribute('data-toggle', 'collapse');
+              document.getElementById("content").appendChild(linkMoreFor2020);
+              var divMoreFor2020 = document.createElement("div");
+              divMoreFor2020.className = "collapse";
+              divMoreFor2020.id = "moreWorksFor2020";
+              document.getElementById('content').appendChild(divMoreFor2020);
+              addImages('moreWorksFor2020', ["art69.jpg","art70.jpg","art72.jpg","art75.jpg","art76.jpg","art78.jpg","art77.jpg","art79.jpg","art80.jpg","art81.jpg","art82.jpg", "art83.jpg", "art86.jpg", "art87.jpg", "art88.jpg", "art89.jpg", "art90.jpg", "art91.jpg", "art92.jpg", "art93.jpg"], json, 3);
+              // add divider
+              document.getElementById('content').appendChild(document.createElement('hr'));
+
               // add 2019 text
               var p2019 = document.createElement('p');
               p2019.classList.add("gallery-p-center-bold");

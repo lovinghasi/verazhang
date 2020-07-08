@@ -74,6 +74,19 @@
                       var descriptionPText = document.createTextNode("描述: " + detail['description']);
                       descriptionP.appendChild(descriptionPText);
                       document.getElementById('detailHolder').appendChild(descriptionP);
+                      var statusP = document.createElement('p')
+                      var statusText = document.createTextNode(detail['status'])
+                      statusP.appendChild(statusText)
+                      document.getElementById('detailHolder').appendChild(statusP);
+                      if (detail['status'] == '待售') {
+                          var linkP = document.createElement('p')
+                          var linkSaatchi = document.createElement('a')
+                          linkSaatchi.href = "https://www.saatchiart.com/vera_zhang"
+                          var linkText = document.createTextNode("去Saatchi Art网站购买")
+                          linkSaatchi.appendChild(linkText)
+                          linkP.appendChild(linkSaatchi)
+                          document.getElementById('detailHolder').appendChild(linkP);
+                        }
                     });                      
                    } else {
                     readTextFile("description-en", function(param) {
@@ -95,6 +108,19 @@
                         var descriptionPText = document.createTextNode("Description: " + detail['description']);
                         descriptionP.appendChild(descriptionPText);
                         document.getElementById('detailHolder').appendChild(descriptionP);
+                        var statusP = document.createElement('p')
+                        var statusText = document.createTextNode(detail['status'])
+                        statusP.appendChild(statusText)
+                        document.getElementById('detailHolder').appendChild(statusP);
+                        if (detail['status'] == 'Available') {
+                          var linkP = document.createElement('p')
+                          var linkSaatchi = document.createElement('a')
+                          linkSaatchi.href = "https://www.saatchiart.com/vera_zhang"
+                          var linkText = document.createTextNode("Buy from Saatchi")
+                          linkSaatchi.appendChild(linkText)
+                          linkP.appendChild(linkSaatchi)
+                          document.getElementById('detailHolder').appendChild(linkP);
+                        }
                     });
                    }
 

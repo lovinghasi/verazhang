@@ -526,5 +526,221 @@
     "width": "61",
     "height": "76.2",
     "status": "待售"
+  }, 
+    "art67.jpg": {
+    "title": "公寓一角",
+    "material": "丙烯颜料，画布",
+    "description": "我每天在这个角落工作，有天我想，为什么不画出来呢？",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art68.jpg": {
+    "title": "公寓一角2",
+    "material": "丙烯颜料，画布",
+    "description": "我每天在这个角落工作，有天我想，为什么不画出来呢？",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art69.jpg": {
+    "title": "来来来，喝一杯。",
+    "material": "丙烯颜料，画布",
+    "description": "梦中一景。",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art70.jpg": {
+    "title": "吹小号",
+    "material": "丙烯颜料，画布",
+    "description": "独特的角度，在网上视频上看到的。",
+    "width": "45.7",
+    "height": "30.5",
+    "status": "待售"
+  }, 
+    "art71.jpg": {
+    "title": "无题",
+    "material": "丙烯颜料，画布",
+    "description": "Let the paint work.",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art72.jpg": {
+    "title": "鲜花高跟鞋",
+    "material": "丙烯颜料，画布",
+    "description": "新冠隔离期间画的这幅画，因为不能穿高跟鞋出门，就用鲜花假扮一下，在网上参考的图。",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art73.jpg": {
+    "title": "沐浴阳光",
+    "material": "丙烯颜料，画布",
+    "description": "一天下午，我躺在窗户边，阳光洒在身上，我想，为何不把这种感觉画下来呢？",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "已售"
+  }, 
+    "art74.jpg": {
+    "title": "绿丝绸",
+    "material": "丙烯颜料，画布",
+    "description": "我从来没有想过绿色能配粉色。",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art75.jpg": {
+    "title": "紫色水乡",
+    "material": "丙烯颜料，画布",
+    "description": "梦中一景",
+    "width": "45.7",
+    "height": "30.5",
+    "status": "待售"
+  }, 
+    "art76.jpg": {
+    "title": "孔雀",
+    "material": "丙烯颜料，画布",
+    "description": "手指绘。",
+    "width": "45.7",
+    "height": "30.5",
+    "status": "待售"
+  }, 
+    "art77.jpg": {
+    "title": "一荤一素",
+    "material": "丙烯颜料，画布",
+    "description": "听毛不易的歌有感。",
+    "width": "45.7",
+    "height": "30.5",
+    "status": "已售"
+  }, 
+    "art78.jpg": {
+    "title": "孔雀2",
+    "material": "丙烯颜料，画布",
+    "description": "手指绘。",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art79.jpg": {
+    "title": "花",
+    "material": "丙烯颜料，画布",
+    "description": "看梵高有感。",
+    "width": "45.7",
+    "height": "30.5",
+    "status": "待售"
+  }, 
+    "art80.jpg": {
+    "title": "花",
+    "material": "丙烯颜料，画布",
+    "description": "看梵高有感。",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art81.jpg": {
+    "title": "花",
+    "material": "丙烯颜料，画布",
+    "description": "看网图有感。",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art82.jpg": {
+    "title": "快跑！",
+    "material": "丙烯颜料，画布",
+    "description": "这幅我先画了一只鸟，发现画面有点不平衡，就添加了一只虫，结果意想不到的好玩。",
+    "width": "45.7",
+    "height": "30.5",
+    "status": "待售"
+  }, 
+    "art83.jpg": {
+    "title": "掌印",
+    "material": "丙烯颜料，画布",
+    "description": "简单，但是出奇的和谐。",
+    "width": "45.7",
+    "height": "30.5",
+    "status": "待售"
+  }, 
+    "art84.jpg": {
+    "title": "抽象 I",
+    "material": "丙烯颜料，画布",
+    "description": "随机但不随意。",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art85.jpg": {
+    "title": "抽象 II",
+    "material": "丙烯颜料，画布",
+    "description": "随机但不随意。",
+    "width": "45.7",
+    "height": "30.5",
+    "status": "待售"
+  }, 
+    "art86.jpg": {
+    "title": "镜子",
+    "material": "丙烯颜料，画布",
+    "description": "看网图有感。",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art87.jpg": {
+    "title": "将军",
+    "material": "丙烯颜料，画布",
+    "description": "梦中一景",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art88.jpg": {
+    "title": "记忆",
+    "material": "丙烯颜料，画布",
+    "description": "艺术能治愈。",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art89.jpg": {
+    "title": "花",
+    "material": "丙烯颜料，画布",
+    "description": "看网图有感。",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art90.jpg": {
+    "title": "声乐一组",
+    "material": "丙烯颜料，画布",
+    "description": "看网上视频有感。",
+    "width": "45.7",
+    "height": "30.5",
+    "status": "待售"
+  }, 
+    "art91.jpg": {
+    "title": "花",
+    "material": "丙烯颜料，画布",
+    "description": "看网图有感。",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art92.jpg": {
+    "title": "花",
+    "material": "丙烯颜料，画布",
+    "description": "看网图有感。",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
+  }, 
+    "art93.jpg": {
+    "title": "花",
+    "material": "丙烯颜料，画布",
+    "description": "梦中一景。",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "待售"
   }
 }
