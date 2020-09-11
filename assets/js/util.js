@@ -165,6 +165,15 @@ function createFooterLinks(containerName, links, pageName) {
         instaLi.appendChild(instaLink);
         ul.appendChild(instaLi);
     }
+    // Saatchi Art
+    var saatchiLi = document.createElement('li');
+    var saatchiLink = document.createElement('a');
+    var saatchiText = document.createTextNode('Saatchi Art');
+    saatchiLink.appendChild(saatchiText);
+    saatchiLink.className = "black-link-underline";
+    saatchiLink.href = "https://www.saatchiart.com/vera_zhang";
+    saatchiLi.appendChild(saatchiLink);
+    ul.appendChild(saatchiLi);
     // Email 
     var emailLi = document.createElement('li');
     var emailLink = document.createElement('a');
