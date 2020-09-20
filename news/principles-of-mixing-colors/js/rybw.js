@@ -7,7 +7,6 @@ function setWhiteScale(w) {
 window.addEventListener('load', drawColorPicker);
 
 function drawColorPicker() {
-      console.log(rgb2ryb(RXB.ryb2rgb([230, 230,230])));
   var rybw = document.getElementById('rybw');
   if (rybw) {
     rybw.innerHTML = "";
