@@ -164,28 +164,7 @@ function createFooterLinks(containerName, links, pageName) {
         instaLink.href = "http://www.instagram.com/vera_z/";
         instaLi.appendChild(instaLink);
         ul.appendChild(instaLi);
-    }
-    // Saatchi Art
-    var saatchiLi = document.createElement('li');
-    var saatchiLink = document.createElement('a');
-    var saatchiText = document.createTextNode('Saatchi Art');
-    saatchiLink.appendChild(saatchiText);
-    saatchiLink.className = "black-link-underline";
-    saatchiLink.href = "https://www.saatchiart.com/vera_zhang";
-    saatchiLi.appendChild(saatchiLink);
-    ul.appendChild(saatchiLi);
-    // Store
-    var storeiLi = document.createElement('li');
-    var storeLink = document.createElement('a');
-    var storeText = document.createTextNode('Store');
-    if (language == "中文") {
-        storeText = document.createTextNode("商店");
-    }
-    storeLink.appendChild(storeText);
-    storeLink.className = "black-link-underline";
-    storeLink.href = "https://verazhangartstore.myshopify.com/";
-    storeiLi.appendChild(storeLink);
-    ul.appendChild(storeiLi);    
+    }   
     // Email 
     var emailLi = document.createElement('li');
     var emailLink = document.createElement('a');
