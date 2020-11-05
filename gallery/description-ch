@@ -749,7 +749,7 @@
     "description": "一见钟情的那天。",
     "width": "61",
     "height": "76",
-    "status": "Available"
+    "status": "待售"
   }, 
     "art95.jpg": {
     "title": "The Tango",
@@ -757,7 +757,7 @@
     "description": "深深地爱上了你。",
     "width": "61",
     "height": "76",
-    "status": "Available"
+    "status": "待售"
   }, 
     "art96.jpg": {
     "title": "The Wall",
@@ -765,7 +765,7 @@
     "description": "我终于失去了你。",
     "width": "61",
     "height": "76",
-    "status": "Available"
+    "status": "待售"
   }, 
     "art97.jpg": {
     "title": "公寓一角3",
@@ -773,6 +773,6 @@
     "description": "一个温暖的午后，阳光洒在椅子上，忍不住就画了下来。",
     "width": "30.5",
     "height": "45.7",
-    "status": "Available"
+    "status": "待售"
   }
 }
