@@ -142,7 +142,7 @@
               pCorner.appendChild(textCorner);
               document.getElementById('content').appendChild(pCorner);
               // add The Childhood images
-              addImages('content', ["art67.jpg","art68.jpg"], json, 3);
+              addImages('content', ["art67.jpg","art68.jpg", "art97.jpg"], json, 3);
               // add divider
               document.getElementById('content').appendChild(document.createElement('hr'));
               // add The Abstraction text
@@ -176,6 +176,16 @@
               var text2019 = document.createTextNode("2019");
               p2019.appendChild(text2019);
               document.getElementById('content').appendChild(p2019);
+              // add divider
+              document.getElementById('content').appendChild(document.createElement('hr'));
+              // add The Hand Project text
+              var pHand = document.createElement('p');
+              pHand.classList.add("gallery-p-center");
+              var textHand = document.createTextNode("The Hand Project 手模行动");
+              pHand.appendChild(textHand);
+              document.getElementById('content').appendChild(pHand);
+              // add The Hand Project images
+              addImages('content', ["art46.jpg","art47.jpg","art48.jpg", "art59.jpg", "art60.jpg", "art61.jpg", "art62.jpg", "art63.jpg"], json, 3);
               // add divider
               document.getElementById('content').appendChild(document.createElement('hr'));
               // add The Childhood text

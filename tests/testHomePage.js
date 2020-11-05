@@ -53,117 +53,67 @@ test('Privacy link', async t => {
 
 // Main slider
 test('Assert resources', async t=>{
-	 const status1 = await Utils.getRequestResult("gallery/images/art46.jpg");
+	 const status1 = await Utils.getRequestResult("gallery/images/art94.jpg");
 	 await t.expect(status1).eql(200);
-	 const status2 = await Utils.getRequestResult("gallery/images/art47.jpg");
+	 const status2 = await Utils.getRequestResult("gallery/images/art95.jpg");
 	 await t.expect(status2).eql(200);
-	 const status3 = await Utils.getRequestResult("gallery/images/art48.jpg");
+	 const status3 = await Utils.getRequestResult("gallery/images/art96.jpg");
 	 await t.expect(status3).eql(200);
 });
 
 test('Right and left arrows', async t=>{
 	var activeItem = Selector('.active');
 	var currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
-	await t.expect(currentImageUrl).contains('gallery/images/art46.jpg');
+	await t.expect(currentImageUrl).contains('gallery/images/art94.jpg');
 	var right = Selector('.right');
 	await t.click(right)
 			.wait( 1000 );
 	activeItem = Selector('.active');
 	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
-	await t.expect(currentImageUrl).contains('gallery/images/art47.jpg');
+	await t.expect(currentImageUrl).contains('gallery/images/art95.jpg');
 	right = Selector('.right');
 	await t.click(right)
 			.wait( 1000 );
 	activeItem = Selector('.active');
 	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
-	await t.expect(currentImageUrl).contains('gallery/images/art48.jpg');
+	await t.expect(currentImageUrl).contains('gallery/images/art96.jpg');
 	right = Selector('.right');
 	await t.click(right)
 			.wait( 1000 );
 	activeItem = Selector('.active');
 	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
-	await t.expect(currentImageUrl).contains('gallery/images/art59.jpg');
-	right = Selector('.right');
-	await t.click(right)
-			.wait( 1000 );
-	activeItem = Selector('.active');
-	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
-	await t.expect(currentImageUrl).contains('gallery/images/art60.jpg');
-	right = Selector('.right');
-	await t.click(right)
-			.wait( 1000 );
-	activeItem = Selector('.active');
-	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
-	await t.expect(currentImageUrl).contains('gallery/images/art61.jpg');
-	right = Selector('.right');
-	await t.click(right)
-			.wait( 1000 );
-	activeItem = Selector('.active');
-	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
-	await t.expect(currentImageUrl).contains('gallery/images/art62.jpg');
-	right = Selector('.right');
-	await t.click(right)
-			.wait( 1000 );
-	activeItem = Selector('.active');
-	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
-	await t.expect(currentImageUrl).contains('gallery/images/art63.jpg');
-	right = Selector('.right');
-	await t.click(right)
-			.wait( 1000 );
-	activeItem = Selector('.active');
-	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
-	await t.expect(currentImageUrl).contains('gallery/images/art46.jpg');
+	await t.expect(currentImageUrl).contains('gallery/images/art94.jpg');
 	var left = Selector('.left');
 	await t.click(left).wait(1000);
 	activeItem = Selector('.active');
 	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
-	await t.expect(currentImageUrl).contains('gallery/images/art63.jpg');
+	await t.expect(currentImageUrl).contains('gallery/images/art96.jpg');
 	left = Selector('.left')
 	await t.click(left).wait(1000);
 	activeItem = Selector('.active');
 	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
-	await t.expect(currentImageUrl).contains('gallery/images/art62.jpg');
+	await t.expect(currentImageUrl).contains('gallery/images/art95.jpg');
 	left = Selector('.left')
 	await t.click(left).wait(1000);
 	activeItem = Selector('.active');
 	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
-	await t.expect(currentImageUrl).contains('gallery/images/art61.jpg');
+	await t.expect(currentImageUrl).contains('gallery/images/art94.jpg');
 	left = Selector('.left')
 	await t.click(left).wait(1000);
 	activeItem = Selector('.active');
 	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
-	await t.expect(currentImageUrl).contains('gallery/images/art60.jpg');
-	left = Selector('.left')
-	await t.click(left).wait(1000);
-	activeItem = Selector('.active');
-	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
-	await t.expect(currentImageUrl).contains('gallery/images/art59.jpg');
-	left = Selector('.left')
-	await t.click(left).wait(1000);
-	activeItem = Selector('.active');
-	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
-	await t.expect(currentImageUrl).contains('gallery/images/art48.jpg');
-	left = Selector('.left');
-	await t.click(left).wait(1000);
-	activeItem = Selector('.active');
-	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
-	await t.expect(currentImageUrl).contains('gallery/images/art47.jpg');
-	left = Selector('.left');
-	await t.click(left).wait(1000);
-	activeItem = Selector('.active');
-	currentImageUrl = await activeItem.child(0).child(0).getAttribute('src');
-	await t.expect(currentImageUrl).contains('gallery/images/art46.jpg');
+	await t.expect(currentImageUrl).contains('gallery/images/art96.jpg');
 });
 
 test('Click to details', async t=>{
 	const currentImage = Selector('.active').child(0).child(0);
     await t.click(currentImage)
-			.expect(Utils.getLocation()).contains("gallery/detail.html?title=art46.jpg");
+			.expect(Utils.getLocation()).contains("gallery/detail.html?title=art94.jpg");
 	await Utils.goBack();
 	const right = Selector('.right');
 	await t.click(right).wait(1000);
 	await t.click(currentImage)
-			.expect(Utils.getLocation()).contains("gallery/detail.html?title=art47.jpg");
+			.expect(Utils.getLocation()).contains("gallery/detail.html?title=art95.jpg");
 	await Utils.goBack();
 	for(let i = 0; i < 2; i++) {
     	await t
@@ -171,7 +121,7 @@ test('Click to details', async t=>{
 	        .wait(1000)
 	}
 	await t.click(currentImage)
-			.expect(Utils.getLocation()).contains("gallery/detail.html?title=art48.jpg");
+			.expect(Utils.getLocation()).contains("gallery/detail.html?title=art96.jpg");
 });
 
 

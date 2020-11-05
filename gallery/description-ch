@@ -742,5 +742,37 @@
     "width": "30.5",
     "height": "45.7",
     "status": "待售"
+  }, 
+    "art94.jpg": {
+    "title": "粉红色的一天",
+    "material": "丙烯颜料，画布",
+    "description": "一见钟情的那天。",
+    "width": "61",
+    "height": "76",
+    "status": "Available"
+  }, 
+    "art95.jpg": {
+    "title": "The Tango",
+    "material": "丙烯颜料，画布",
+    "description": "深深地爱上了你。",
+    "width": "61",
+    "height": "76",
+    "status": "Available"
+  }, 
+    "art96.jpg": {
+    "title": "The Wall",
+    "material": "丙烯颜料，画布",
+    "description": "我终于失去了你。",
+    "width": "61",
+    "height": "76",
+    "status": "Available"
+  }, 
+    "art97.jpg": {
+    "title": "公寓一角3",
+    "material": "丙烯颜料，画布",
+    "description": "一个温暖的午后，阳光洒在椅子上，忍不住就画了下来。",
+    "width": "30.5",
+    "height": "45.7",
+    "status": "Available"
   }
 }

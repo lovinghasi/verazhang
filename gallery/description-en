@@ -742,5 +742,37 @@
     "width": "16",
     "height": "20",
     "status": "Available"
+  }, 
+    "art94.jpg": {
+    "title": "The Pink Day",
+    "material": "Acrylic on canvas",
+    "description": "That I know you.",
+    "width": "24",
+    "height": "30",
+    "status": "Available"
+  }, 
+    "art95.jpg": {
+    "title": "The Tango",
+    "material": "Acrylic on canvas",
+    "description": "That I love you.",
+    "width": "24",
+    "height": "30",
+    "status": "Available"
+  }, 
+    "art96.jpg": {
+    "title": "The Wall",
+    "material": "Acrylic on canvas",
+    "description": "That I lose you.",
+    "width": "24",
+    "height": "30",
+    "status": "Available"
+  }, 
+    "art97.jpg": {
+    "title": "Corner of my apartment 3",
+    "material": "Acrylic on canvas",
+    "description": "One day afternoon, I saw the sunlight on the chair, couldn't resist to paint it.",
+    "width": "16",
+    "height": "20",
+    "status": "Available"
   }
 }

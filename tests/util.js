@@ -9,7 +9,7 @@ var Utils = {
 	emailPath : "mailto:verazhangsite@gmail.com?Subject=From%20www.verazhang.com",
 	supportPath : 'support',
 	adsPath: 'ads',
-	privacyPath: 'www.freeprivacypolicy.com/privacy/view/fc6bd4104410e9573eead5ce0a7f1b3e'
+	privacyPath: 'https://www.freeprivacypolicy.com/live/dccb9a51-748e-4ab8-933a-00e372b3ee1c'
 }
 
 Utils.stripTrailingSlash = function (site){return site.replace(/\/$/, "");};
