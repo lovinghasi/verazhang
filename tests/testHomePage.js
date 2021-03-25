@@ -25,31 +25,25 @@ test('About link', async t => {
     		.expect(Utils.getLocation()).contains(Utils.aboutPath + "/");
 });
 
-test('Instagram link', async t => {
-    const supportLink = Selector('#footer-links').child(0).child(4);
+// test('Instagram link', async t => {
+//     const supportLink = Selector('#footer-links').child(0).child(4);
 
-    await t.click(supportLink)
-    		.expect(Utils.getLocation()).contains(Utils.instaWebPath);
-});
+//     await t.click(supportLink)
+//     		.expect(Utils.getLocation()).contains(Utils.instaWebPath);
+// });
 
 test('Email link', async t => {
     const emailLink = Selector('#footer-links').child(0).child(5).child(0);
     await t.expect(emailLink.getAttribute('href')).contains(Utils.emailPath);
 });
 
-test('Support link', async t => {
-    const supportLink = Selector('#footer-links').child(0).child(6);
 
-    await t.click(supportLink)
-    		.expect(Utils.getLocation()).contains(Utils.supportPath + "/");
-});
+// test('Privacy link', async t => {
+//     const privacyLink = Selector('#footer-links').child(0).child(7);
 
-test('Privacy link', async t => {
-    const privacyLink = Selector('#footer-links').child(0).child(7);
-
-    await t.click(privacyLink)
-    		.expect(Utils.getLocation()).contains(Utils.privacyPath);
-});
+//     await t.click(privacyLink)
+//     		.expect(Utils.getLocation()).contains(Utils.privacyPath);
+// });
 
 // Main slider
 test('Assert resources', async t=>{

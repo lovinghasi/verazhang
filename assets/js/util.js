@@ -177,23 +177,6 @@ function createFooterLinks(containerName, links, pageName) {
     emailLink.href = "mailto:verazhangsite@gmail.com?Subject=From%20www.verazhang.com";
     emailLi.appendChild(emailLink);
     ul.appendChild(emailLi);
-    // Support 
-    var supportLi = document.createElement('li');
-    var supportText = document.createTextNode("Support");
-    if (language == "中文") {
-        supportText = document.createTextNode("支持");
-    }
-    if (pageName == "Support") {
-        supportLi.appendChild(supportText);
-    } else {
-        var supportLink = document.createElement('a');
-        supportLink.appendChild(supportText);
-        supportLink.className = "black-link-underline";
-        supportLink.href = links['supportme'];
-        supportLi.appendChild(supportLink);
-
-    }
-    ul.appendChild(supportLi);
     // Privacy Policy
     var privacyLi = document.createElement('li');
     var privacyText = document.createTextNode('Privacy Policy');

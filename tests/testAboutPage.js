@@ -22,25 +22,19 @@ test('News link', async t=>{
             .expect(Utils.getLocation()).contains(Utils.newsPath + '/');
 });
 
-test('Insta link', async t=>{
-    const link = Selector('#footer-links').child(0).child(4);
-    await t.click(link)
-    		.expect(Utils.getLocation()).contains(Utils.instaWebPath);
-});
+// test('Insta link', async t=>{
+//     const link = Selector('#footer-links').child(0).child(4);
+//     await t.click(link)
+//     		.expect(Utils.getLocation()).contains(Utils.instaWebPath);
+// });
 
 test('Email link', async t=>{
     const link = Selector('#footer-links').child(0).child(5).child(0);
     await t.expect(link.getAttribute('href')).eql(Utils.emailPath);
 });
 
-test('Support link', async t=>{
-    const link = Selector('#footer-links').child(0).child(6);
-    await t.click(link)
-    		.expect(Utils.getLocation()).contains(Utils.supportPath + "/");
-});
-
-test('Privacy link', async t=>{
-    const link = Selector('#footer-links').child(0).child(7);
-    await t.click(link)
-    		.expect(Utils.getLocation()).contains(Utils.privacyPath);
-});
+// test('Privacy link', async t=>{
+//     const link = Selector('#footer-links').child(0).child(7);
+//     await t.click(link)
+//     		.expect(Utils.getLocation()).contains(Utils.privacyPath);
+// });
